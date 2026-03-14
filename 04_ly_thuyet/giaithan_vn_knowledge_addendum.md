@@ -160,20 +160,28 @@
 
 | Hán tự | Can | Biến vi | Nghĩa | Khí bản thể | Biến khí |
 |---|---|---|---|---|---|
-| 甲變為顛 | Giáp | ĐIÊN | Đảo lộn, hỗn loạn cực | Mộc dương khởi phát | Mất trật tự, loạn |
-| 乙變為亡 | Ất | VONG | Mất mát, tiêu vong | Mộc âm nhu mềm | Tuyệt diệt |
-| 丙變為囚 | Bính | TÙ | Bị giam, tự trói | Hỏa dương chiếu rọi | Bó hẹp, mất ánh sáng |
-| 丁變為游 | Đinh | DU | Trôi nổi, phiêu bạt | Hỏa âm sâu kín | Lang thang vô định |
-| 戊變為寡 | Mậu | QUẢ | Đơn độc, cô lập | Thổ dương trung tâm | Thiếu đồng hành |
-| *(Kỷ)* | Kỷ | *(chưa trích)* | — | Thổ âm | — |
-| *(Canh)* | Canh | *(chưa trích)* | — | Kim dương | — |
-| *(Tân)* | Tân | *(chưa trích)* | — | Kim âm | — |
-| 壬變為旺 | Nhâm | VƯỢNG | Bành trướng | Đại thủy bao dung | Lan rộng vô giới hạn |
-| 癸變為權 | Quý | QUYỀN | Quyền biến, thao lược | Âm thủy sâu kín | Quyền mưu phức tạp |
+| 甲變為顛 | Giáp | **ĐIÊN** | Đảo lộn, hỗn loạn cực | Mộc dương khởi phát | Mất trật tự, loạn |
+| 乙變為亡 | Ất | **VONG** | Mất mát, tiêu vong | Mộc âm nhu mềm | Tuyệt diệt |
+| 丙變為囚 | Bính | **TÙ** | Bị giam, tự trói | Hỏa dương chiếu rọi | Bó hẹp, mất ánh sáng |
+| 丁變為游 | Đinh | **DU** | Trôi nổi, phiêu bạt | Hỏa âm sâu kín | Lang thang vô định |
+| 戊變為寡 | Mậu | **QUẢ** | Đơn độc, cô lập | Thổ dương trung tâm | Thiếu đồng hành |
+| 己變為恩 | Kỷ | **ÂN** | Ân huệ, từ bi quá mức | Thổ âm dưỡng sinh | Từ bi → tổn hao nội lực |
+| 庚變為孤 | Canh | **CÔ** | Cô lập, thất thế | Kim dương mạnh mẽ | Mất trợ lực, đơn độc |
+| 辛變為酸 | Tân | **TOAN** | Lo toan, lao tâm khổ tứ | Kim âm tinh tế | Tính toán chi li → mệt mỏi |
+| 壬變為旺 | Nhâm | **VƯỢNG** | Bành trướng | Đại thủy bao dung | Lan rộng vô giới hạn |
+| 癸變為權 | Quý | **QUYỀN** | Quyền biến, thao lược | Âm thủy sâu kín | Quyền mưu phức tạp |
 
-- **Chuyển hóa**: mỗi Can cần học cách gì để thoát biến khí
-- Nhâm: gom tụ, điều tiết mở rộng có quy hoạch
-- Quý: buông tha giới hạn bản thân
+- **Chuyển hóa** (mỗi Can cần học cách gì để thoát biến khí):
+  - Giáp: xây nền vững trước bứt phá, kiểm soát tốc độ
+  - Ất: dung hòa, tìm điểm tựa vững, chấp nhận bất toàn
+  - Bính: biết giới hạn, tiết chế tham vọng, giảm tự giam
+  - Đinh: neo trọng tâm, không trôi theo cảm xúc
+  - Mậu: chia sẻ quyền lực, điều tiết cộng sinh, xây đồng minh
+  - Kỷ: cân bằng cho-nhận, không hi sinh quá mức
+  - Canh: mềm hóa quan hệ, xây hệ thống trợ lực, tránh cô lập
+  - Tân: buông bớt tính toán, tin tưởng trực giác, giảm lo
+  - Nhâm: gom tụ, điều tiết mở rộng có quy hoạch
+  - Quý: buông tha giới hạn bản thân
 
 ---
 
