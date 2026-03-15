@@ -447,6 +447,101 @@
 
 ---
 
+## PHẦN III-B: ĐỘNG LỰC HỌC 4 VÒNG TAM HỢP (MACRO STRUCTURE)
+
+> *Phương pháp: chia tinh bàn thành 4 "Quốc gia" tranh giành năng lượng. Áp dụng cho lá số Cà Rốt (Canh Tý 2020, Thổ Ngũ Cục).*
+
+### 1. Vòng HỎA CỤC (Dần-Ngọ-Tuất): Trục Mệnh — Hào Quang & Thử Thách
+
+**Quan (Dần) — Tài (Ngọ) — Mệnh (Tuất).** Cự Nhật Vượng + Lộc + Mã (Dần) → VCD + Nhị Không (Ngọ) → VCD + Hình Hãm (Tuất).
+
+**Ngũ Hành Tổng Thể:** Mệnh Thổ đóng tại Tuất (Thổ). Thổ đồng hành = **MỆNH ĐƯỢC NUÔI**. Hỏa (Dần Mộc sinh Hỏa, Ngọ Hỏa) sinh Thổ (Tuất) = **vòng Hỏa Cục NUÔI Mệnh tự nhiên**. Đây là điểm KHÁC BIỆT LỚN NHẤT so với Long (Mệnh Kim sinh Thủy = hao).
+
+**Điểm mạnh:** Quan (Dần) CỰC SÁNG — 5 cách cục chồng chất. Năng lượng phát ra từ sự nghiệp, nuôi ngược về Mệnh.
+**Điểm nghẽn:** Tài (Ngọ) bị Nhị Không — dòng tiền mặt BỊ CẮT. Mệnh (Tuất) VCD + Hình Hãm — bản thân bị gò bó.
+
+> **Kết luận:** Vòng Hỏa Cục = "Lò nung vàng". Sự nghiệp RỪNG RỰC nhưng tiền mặt THỦNG ĐÁY. Chiến lược: **kiếm tiền từ DANH TIẾNG (Lộc Quan), chuyển vào BĐS (Điền), TRÁNH giữ tiền mặt (Nhị Không Tài).**
+
+### 2. Vòng KIM CỤC (Tỵ-Dậu-Sửu): Trục Sức Khỏe — Chiến Đấu & Tích Lũy
+
+**Ách (Tỵ) — Huynh (Dậu) — Điền (Sửu).** Tử Sát Vượng + Tuần (Tỵ) → Liêm Phá Hãm + Kình Hãm (Dậu) → Vũ Tham Miếu + Quyền (Sửu).
+
+**Ngũ Hành:** Thổ (Sửu) sinh Kim = Kim Cục cực vượng. Sát tinh dày đặc: Tử Sát (Tỵ), Liêm Phá Kình (Dậu). **Đây là cỗ máy chiến đấu của lá số** — nhưng chiến đấu ở lĩnh vực SỨC KHỎE + ANH EM, không phải hôn nhân (khác Long).
+
+> **Kết luận:** Vòng Kim = "Lá chắn thép". Sức khỏe mạnh (Tử Sát), va chạm anh em (Liêm Phá), tích lũy BĐS (Vũ Tham Quyền). Năng lượng lõi NỔ ở đây SAU 30 tuổi.
+
+### 3. Vòng THỦY CỤC (Thân-Tý-Thìn): Trục Gia Đạo — Hậu Thuẫn Mạnh
+
+**Thê[Thân] (Thân) — Phúc (Tý) — Di (Thìn).** VCD + Lộc Tồn Đắc (Thân) → Đồng Âm Vượng + Khoa Kỵ (Tý) → Cơ Lương Miếu + Tuần Kiếp (Thìn).
+
+**Ngũ Hành:** Thủy sinh Mộc → Thủy Cục = nguồn cung cấp, nuôi dưỡng. Đồng Âm Vượng (Tý) cộng hưởng Thủy = **phúc đức cực sáng**.
+
+**Khác biệt với Long:** Long: Thủy Cục rạn nứt (Kiếp+Kình tại Tý). Cà Rốt: Thủy Cục mạnh hơn (Khoa tại Tý thay vì Kiếp+Kình), nhưng Kỵ đồng cung = **phúc đức ẩn thị phi nhẹ**. Huynh Đệ Long: VCD rỗng. Cà Rốt: Di Cơ Lương Miếu = hậu thuẫn TRÍ TUỆ từ nơi xa.
+
+> **Kết luận:** Vòng Thủy = "Suối nguồn phúc". Hôn nhân + Phúc đức + Trí tuệ = bộ ba vững chắc. Đây là NỀN TẢNG an toàn nhất của lá số.
+
+### 4. Vòng MỘC CỤC (Hợi-Mão-Mùi): Trục Phụ Trợ — Rỗng Ruột
+
+**Phụ (Hợi) — Nô (Mão) — Tử (Mùi).** Phủ Đắc (Hợi) → Tướng Hãm (Mão) → VCD + Triệt + Hỏa Hãm (Mùi).
+
+**Ngũ Hành:** Thủy (Hợi) sinh Mộc (Mão). Mộc Cục hướng phát triển nhưng **thiếu củi**: Tướng Hãm (Ấn mất mực), VCD + Triệt (Tử Tức bị chặn).
+
+> **Kết luận:** Vòng Mộc = "Cây thiếu rễ". Cha mẹ giàu (Phủ Đắc) nhưng bạn bè yếu (Tướng Hãm) và con cái muộn (VCD Triệt). Không dựa được vào vòng này — chỉ nhận phúc từ cha mẹ.
+
+> **Trình Minh Đức:** *"Bốn vòng tam hợp = 4 động cơ. Cà Rốt: Hỏa (sự nghiệp) MẠNH NHẤT, Thủy (gia đạo) BỀN NHẤT, Kim (sức khỏe) DỮ NHẤT, Mộc (phụ trợ) YẾU NHẤT. Chiến lược: đẩy Hỏa+Thủy, phòng thủ Kim, bỏ qua Mộc."*
+
+---
+
+## PHẦN III-C: VÒNG TRÀNG SINH — NHỊP THỞ CỦA NGŨ HÀNH QUA 12 CUNG
+
+> **Phương pháp:** Vòng Tràng Sinh = 12 giai đoạn sinh-lão-bệnh-tử-tái sinh của Ngũ Hành Mệnh (Thổ) qua 12 cung. **Thổ Ngũ Cục, Dương Nam, Thuận** → Trường Sinh khởi tại **Thân**.
+> **Xác minh:** Thổ Ngũ Cục Dương Nam: Thân(Trường Sinh) → Dậu(Mộc Dục) → Tuất(Quan Đới) → Hợi(Lâm Quan) → Tý(Đế Vượng) → Sửu(Suy) → Dần(Bệnh) → Mão(Tử) → Thìn(Mộ) → Tỵ(Tuyệt) → Ngọ(Thai) → Mùi(Dưỡng)
+
+### Bảng Tràng Sinh × 12 Cung
+
+| Cung | Chức năng | Tràng Sinh | Ý nghĩa | Tinh bàn lõi | Nhận định |
+|---|---|:---:|---|---|---|
+| **Thân** | Thê [THÂN] | **Trường Sinh** 🌱 | Khởi nguồn, bắt đầu | VCD + Lộc Tồn(Đ) | ⭐ SINH RA từ HÔN NHÂN. Hậu vận bắt đầu từ bạn đời |
+| **Dậu** | Huynh Đệ | **Mộc Dục** 🛁 | Tắm rửa, dễ tổn thương | Liêm(H)+Phá(H)+Kình(H) | ⛔ "Tắm trong bão" — anh em gây tổn thương GỘT RỬA |
+| **Tuất** | **Mệnh** | **Quan Đới** 👑 | Mặc áo, lên vị trí | VCD + Hình(H) + Hồng Loan | ⭐ Mệnh ở giai đoạn MẶC ÁO = bắt đầu CÓ VỊ TRÍ. Hồng Loan = "áo đẹp" |
+| **Hợi** | Phụ Mẫu | **Lâm Quan** 🏛️ | Vào triều, ra làm quan | Phủ(Đ) | ✅ Cha mẹ = "triều đình" nuôi dưỡng. Phủ Đắc = cha mẹ GIÀU, hậu thuẫn |
+| **Tý** | Phúc Đức | **ĐẾ VƯỢNG** 👑🔥 | ĐỈNH CAO, CỰC ĐẠI | Đồng(V)+Âm(V)+Khoa+Kỵ | ⭐⭐ **ĐỈNH CAO năng lượng Mệnh rơi vào PHÚC!** |
+| **Sửu** | Điền Trạch | **Suy** 📉 | Bắt đầu suy, giảm lực | Vũ(M)+Tham(M)+Quyền | ⚠️ Điền ở giai đoạn Suy — BĐS tích lũy CHẬM, cần kiên nhẫn |
+| **Dần** | **Quan Lộc** | **Bệnh** 🤒 | Ốm yếu, thiếu lực bẩm sinh | Nhật(V)+Cự(V)+Lộc+Mã+Khôi | ⚠️⭐ **NGHỊCH LÝ:** Quan BỆNH nhưng CÓ 5 CÁT TINH! |
+| **Mão** | Nô Bộc | **Tử** 💀 | Chết, năng lượng cạn kiệt | Tướng(H) | ⛔ Bạn bè = năng lượng ĐÃ CHẾT. Tướng Hãm = xác nhận |
+| **Thìn** | Thiên Di | **Mộ** ⚱️ | Vào mộ, tích trữ | Cơ(M)+Lương(M)+Tuần+Kiếp | ⭐ **MỘ = KHO CHỨA TRÍ TUỆ.** Cơ Lương Miếu trong Mộ = tri thức bất khả xâm phạm |
+| **Tỵ** | Tật Ách | **Tuyệt** ❌ | Tuyệt diệt, hết hẳn | Tử Vi(M)+Sát(V)+Tuần | ⛔⭐ **NGHỊCH LÝ 2:** Ách TUYỆT nhưng Tử Sát CỰC MẠNH! |
+| **Ngọ** | Tài Bạch | **Thai** 🤰 | Thụ thai, mầm mới | VCD + Triệt + Nhị Không | ⚠️ Tài đang ở THAI → tiền CHƯA SINH! Phải nuôi nấng, chờ đợi |
+| **Mùi** | Tử Tức | **Dưỡng** 🍼 | Nuôi dưỡng, chăm sóc | VCD + Triệt + Hỏa(H)+Đà(Đ) | ⚠️ Con cái đang được NUÔI DƯỠNG — chưa tự lập |
+
+---
+
+### 3 NHẬN ĐỊNH QUAN TRỌNG TỪ TRÀNG SINH
+
+#### 1. ⭐⭐ ĐẾ VƯỢNG TẠI PHÚC ĐỨC (Tý) — "ĐỈNH CAO Ở NỘI TÂM"
+
+**Đế Vượng = đỉnh cao năng lượng** — nơi Thổ (bản Mệnh) MẠNH NHẤT. Rơi vào Phúc Đức (Tý). Đồng Âm Vượng + Khoa + Kỵ đồng cung.
+
+**Ý nghĩa sâu:** Năng lượng CỰC ĐẠI của Cà Rốt không nằm ở sự nghiệp, không ở tiền bạc — mà ở **PHÚC ĐỨC + NỘI TÂM**. Bé có kho phúc KHỔNG LỒ từ tổ tiên. Khoa = phúc trí tuệ. Kỵ = phúc kèm thử thách.
+
+> **So sánh với Long:** Long: Đế Vượng tại **Phu Thê** = năng lượng đỉnh ở hôn nhân (yêu mãnh liệt). Cà Rốt: Đế Vượng tại **Phúc Đức** = năng lượng đỉnh ở nội tâm (phúc mãnh liệt). **Con GIÀU PHÚC hơn cha.**
+
+> **Cụ Thiên Lương:** *"Đế Vượng tại Phúc = TẤT CẢ NĂNG LƯỢNG ĐỔ VÀO NỘI TÂM. Bé này tĩnh lặng nhưng bên trong rực lửa. Ai nhìn bé tưởng yếu — thực ra nội lực KHỔNG LỒ. Như biển lặng mà sâu thẳm."*
+
+#### 2. ⚠️⭐ BỆNH TẠI QUAN LỘC (Dần) — "SỰ NGHIỆP ỐM MÀ SÁNG"
+
+Quan Lộc ở giai đoạn **Bệnh** — năng lượng Thổ yếu bẩm sinh tại đây. **NHƯNG** Cự Nhật Vượng + Hóa Lộc + Mã Đắc + Khôi = **5 cát tinh chồng chất**. Đây là nghịch lý: sự nghiệp "ốm" nhưng có "thuốc bổ" cực mạnh.
+
+> **Trình Minh Đức:** *"Tràng Sinh Bệnh tại Quan + 5 cát = 'người ốm mà làm việc như trâu'. Sức khỏe sự nghiệp bẩm sinh yếu — nghĩa là PHẢI NỖ LỰC GẤP ĐÔI, không được nhàn rỗi. Nhưng cát tinh bù nên kết quả XUẤT SẮC."*
+
+#### 3. ⭐ MỘ TẠI THIÊN DI (Thìn) — "KHO TRÍ TUỆ Ở NƠI XA"
+
+**Mộ = kho chứa kín** tại Thiên Di. Cơ Lương Miếu + Tuần = tri thức **CẤT TRONG KHO**, chỉ mở khi đi xa. Tuần phong ấn = kho chưa mở khi còn nhỏ, nhưng khi đi du học/công tác xa = KHO MỞ → bùng nổ trí tuệ.
+
+> **Lê Quang Lăng:** *"Mộ tại Di + Cơ Lương Miếu = 'Thư viện bí mật ở nước ngoài'. Khi nào bé đi xa quê, bé sẽ tìm được kho tri thức mà ở nhà KHÔNG BAO GIỜ TÌM RA. Du học = mở kho."*
+
+---
+
 ## PHẦN IV: RÀ SOÁT TOÀN BỘ CÁCH CỤC
 
 ### A. CÁT CÁCH (Cách cục tốt) — 13 cách cục xác nhận
@@ -519,6 +614,48 @@
 - **Người vợ xuất chúng:** Tài ba (Cự Môn), minh bạch (Thái Dương), tụ tài (Lộc Tồn).
 
 > **Lê Quang Lăng:** *"Lộc Tồn đắc ở Thân = người bạn đời giỏi giữ tiền. Mệnh VCD tiền vận chông chênh, nhưng hậu vận Thân Cư Thê đắc Lộc = CÂN BẰNG HOÀN HẢO. Đây là lá số 'Tiền bần hậu phú' điển hình."*
+
+---
+
+## PHẦN V-B: NỘI HÀM CUNG CHỨC — CUNG VỊ — PHẠM VI 12 CUNG
+
+> **Nguyên tắc:** Trước khi luận bất kỳ cung nào, PHẢI hiểu cung đó quản lý lĩnh vực gì trong đời sống. Mỗi cung là một "phòng ban" trong tòa nhà cuộc đời.
+
+---
+
+### BẢNG NỘI HÀM 12 CUNG
+
+| # | Cung | Phạm vi quản lý | Phạm trù mở rộng (hiện đại) | Đối xung | Tam hợp |
+|:---:|---|---|---|---|---|
+| 1 | **Mệnh** (Tuất) | Bản ngã, tính cách, dung mạo, trí tuệ tiên thiên | Sức khỏe gốc, năng lực thích ứng, tiền vận (<34t). "Tôi LÀ ai?" | Tật Ách | Quan Lộc, Tài Bạch |
+| 2 | **Phụ Mẫu** (Hợi) | Cha mẹ, bề trên, sếp, di truyền | Tư tưởng, văn hóa, phương thức tư duy. Quan hệ cấp trên | Nô Bộc | Phúc Đức, Điền Trạch |
+| 3 | **Phúc Đức** (Tý) | Phúc phần tổ tiên, tâm linh, tuổi thọ nền tảng | Tu dưỡng phẩm đức, may mắn quý nhân. "Đời tôi an nhàn hay vất vả?" | Quan Lộc | Phụ Mẫu, Điền Trạch |
+| 4 | **Điền Trạch** (Sửu) | Nhà cửa, đất đai, tài sản cố định | BĐS, di sản thừa kế, chất lượng cuộc sống hàng ngày | Tài Bạch | Phụ Mẫu, Phúc Đức |
+| 5 | **Quan Lộc** (Dần) | Sự nghiệp, công danh, chức vị, thái độ làm việc | Nghề phù hợp, năng lực lập nghiệp. "Tôi LÀM gì?" | Phúc Đức | Mệnh, Tài Bạch |
+| 6 | **Nô Bộc** (Mão) | Bạn bè, đồng nghiệp, thuộc hạ | Hợp tác kinh doanh, năng lực lãnh đạo. "Ai GIÚP tôi?" | Phụ Mẫu | Quan Lộc, Thiên Di |
+| 7 | **Thiên Di** (Thìn) | Di chuyển, xuất ngoại, hoạt động bên ngoài | Năng lực đối ngoại, quý nhân ngoại cảnh. "Ra ngoài GẶP gì?" | Tử Tức | Quan Lộc, Nô Bộc |
+| 8 | **Tật Ách** (Tỵ) | Bệnh tật, tai nạn, thể chất hậu thiên | Sức khỏe tinh thần-thể chất, bệnh mạn tính | Mệnh | Phu Thê, Tài Bạch |
+| 9 | **Tài Bạch** (Ngọ) | Tiền tài, thu nhập, cách kiếm tiền | Dòng tiền lưu động, đầu tư. "Tôi CÓ gì?" | Điền Trạch | Mệnh, Quan Lộc |
+| 10 | **Tử Tức** (Mùi) | Con cái, sinh sản, quan hệ cha mẹ-con | Số lượng con, thành tựu con cái | Thiên Di | Phụ Mẫu, Nô Bộc |
+| 11 | **Phu Thê** (Thân) | Vợ/chồng, hôn nhân, tình duyên | Loại hình đối tác, thái độ với bạn đời. "Tôi YÊU ai?" | Huynh Đệ | Tật Ách, Tài Bạch |
+| 12 | **Huynh Đệ** (Dậu) | Anh chị em ruột, bằng hữu, quan hệ ngang hàng | Trợ giúp anh em, năng lực giao tiếp, cạnh tranh | Phu Thê | Mệnh, Tử Tức |
+
+---
+
+### 6 CẶP ĐỐI XUNG — "GƯƠNG SOI HAI MẶT" (Áp Dụng Cà Rốt)
+
+Mỗi cặp đối xung là hai cung XUNG CHIẾU — luận một cung phải nhìn cung chiếu.
+
+| Cặp đối xung | Ý nghĩa | Cà Rốt — phân tích |
+|---|---|---|
+| **Mệnh (Tuất) ↔ Ách (Tỵ)** | "Con người tôi" ↔ "Sức khỏe" | VCD+Hình Hồng Loan ↔ Tử Sát Miếu Vượng + Tuần: **bản thân yếu vỏ mạnh lõi**. Ách mạnh hơn Mệnh → sức khỏe LÀ thế mạnh lớn nhất |
+| **Phụ Mẫu (Hợi) ↔ Nô (Mão)** | "Ai nuôi tôi" ↔ "Ai giúp tôi" | Phủ Đắc ↔ Tướng Hãm: **cha mẹ giàu có NHƯNG bạn bè yếu**. Phải dựa cha mẹ, KHÔNG dựa bạn |
+| **Phúc (Tý) ↔ Quan (Dần)** | "Nội tâm" ↔ "Sự nghiệp" | Đồng Âm V+Khoa Kỵ ↔ Cự Nhật V+Lộc Mã Khôi: **phúc CỰC MẠNH hậu thuẫn sự nghiệp CỰC SÁNG**. Cặp đối xung ĐẸP NHẤT lá số |
+| **Điền (Sửu) ↔ Tài (Ngọ)** | "BĐS" ↔ "Tiền mặt" | Vũ Tham Miếu+Quyền ↔ VCD+Nhị Không: **BĐS CỰC MẠNH chiếu sang Tài rỗng → đổi tiền mặt thành đất đai** |
+| **Thê (Thân) ↔ Huynh (Dậu)** | "Bạn đời" ↔ "Anh em" | VCD+Lộc Tồn Đắc ↔ Liêm Phá Hãm+Kình Hãm: **vợ/chồng TỐT nhưng anh em XẤU**. Xung chiếu = bạn đời "giải cứu" khỏi anh em |
+| **Di (Thìn) ↔ Tử (Mùi)** | "Ngoại giao" ↔ "Con cái" | Cơ Lương Miếu+Tuần ↔ VCD+Triệt: **trí tuệ ngoại giao mạnh nhưng con cái muộn/khó**. Tuần ↔ Triệt = kép chặn: đi xa BỊ CHẶN + con cái BỊ CẮT |
+
+> **Cụ Thiên Lương:** *"Cặp Phúc-Quan của Cà Rốt là cặp đối xung HIẾM GẶP — cả hai đều cát (+8 và +10). Phúc đức mạnh nuôi sự nghiệp sáng, sự nghiệp sáng bồi phúc đức. Vòng xoắn thiện: CÀ RỐT NÊN TẬP TRUNG VÀO SỰ NGHIỆP + TU DƯỠNG NỘI TÂM — đây là 2 cung TỐT NHẤT."*
 
 ---
 
