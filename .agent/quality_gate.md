@@ -1,6 +1,6 @@
 # Quality Gate — Tử Vi Đẩu Số Analysis Output
 
-> **Version:** 1.0 | **Created:** 14/03/2026
+> **Version:** 2.0 | **Created:** 14/03/2026 | **Updated:** 15/03/2026
 > **Áp dụng cho:** Mọi file output tại `02_luan_giai/`
 > **Điều kiện PASS:** 100% mục bắt buộc ✅, ≥ 80% mục khuyến nghị
 
@@ -102,5 +102,47 @@ Phụ tinh: [x] sao analyzed
 Cách cục: [x] cách ([NET])
 Đại vận: [x]/7 ĐV hiện tại PASS
 Trích dẫn: [x] nguồn verified
+Nguyệt Hạn: [x]/12 tháng ≥15 dòng
+Feedback: [x] corrections applied
+Mệnh Foundation: [x]/12 tháng có ③
 Dung lượng: [x] dòng
 ```
+
+---
+
+## G. NGUYỆT HẠN (Bắt buộc cho file có Nguyệt Hạn)
+
+| # | Tiêu chí | Ký hiệu | Mô tả |
+|:---:|---|:---:|---|
+| G1 | ≥15 dòng/tháng | ✅ | Mỗi tháng ít nhất 15 dòng phân tích |
+| G2 | 3-Layer có đủ | ✅ | L1(Tinh bàn) + L2(Mệnh Foundation) + L3(Giải Thần) |
+| G3 | Tứ Hóa tháng | ✅ | Bảng 4 hóa + cung + ý nghĩa |
+| G4 | Giải Thần Pattern | ✅ | Blockquote > **Pattern T[x]:** cho mỗi tháng |
+| G5 | CK/CW recommendation | ✅ | 1 dòng CK/CW cho mỗi tháng |
+
+**PASS:** ≥ 4/5 cho MỖI tháng
+
+---
+
+## H. FEEDBACK CORRECTION (Bắt buộc)
+
+| # | Tiêu chí | Ký hiệu | Mô tả |
+|:---:|---|:---:|---|
+| H1 | `_FEEDBACK_LOG.md` cập nhật | ✅ | Mọi correction từ đương số đều ghi log |
+| H2 | Tag `[FEEDBACK]` trong file | ✅ | File được sửa có tag + ngày |
+| H3 | Skill updated | 🟡 | Pattern lặp → cập nhật vào SKILL.md |
+
+**PASS:** ≥ 2/3
+
+---
+
+## I. MỆNH FOUNDATION (Bắt buộc cho Nguyệt Hạn)
+
+| # | Tiêu chí | Ký hiệu | Mô tả |
+|:---:|---|:---:|---|
+| I1 | ③ header có mặt | ✅ | Mỗi tháng có `**③ Mệnh Foundation →**` |
+| I2 | ≥4 sao Mệnh analyzed | ✅ | Phủ/Lộc/Khoa/Riêu/Cô Thần — ít nhất 4 |
+| I3 | Riêu direction đúng | ✅ | PHÁT RA, không NHẬN VÀO (R13) |
+| I4 | Cô Thần context-dependent | ✅ | Ghi rõ tốt/xấu tùy tháng |
+
+**PASS:** ≥ 3/4

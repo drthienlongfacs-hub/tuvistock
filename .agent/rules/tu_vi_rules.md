@@ -301,4 +301,53 @@ Triệt tại Ngọ (Tài): VCD bị Triệt cắt
 
 ---
 
-*Created: 25/02/2026 | Updated: 14/03/2026 | Version: 4.0 — Bổ sung Rule R-CK1→R-CK5 (CK analysis, RCA 9 lỗi)*
+## RULE R13: RIÊU TẠI MỆNH = PHÁT RA, KHÔNG NHẬN VÀO ⚠️
+
+**🔔 Trigger:** Mọi lần luận Thiên Riêu tại cung Mệnh hoặc An Thân
+
+**Áp dụng:**
+- ✅ Riêu tại Mệnh = **PHÁT RA** năng lượng đào hoa → NGƯỜI KHÁC nghi BẢN THỂ
+- ✅ Bản thể KHÔNG nghi ngờ — bản thể TỎA sức hút tự nhiên
+- ✅ Combo Riêu + Cô Thần + Tham = "quyến rũ + bận + im lặng" → "chắc có bồ"
+- ❌ KHÔNG viết "Riêu = đương số đa nghi/ghen tuông"
+- ❌ KHÔNG viết "Riêu = bản thể ham sắc dục" (trừ khi có evidence khác)
+
+**RCA:** FC-001 — Real-life feedback đương số (15/03/2026): vợ nghi chồng, KHÔNG phải chồng nghi vợ.
+
+**Giải Thần:** PHÁ Cô Thần ở nhà = chia sẻ lịch, minh bạch, NÓI nhiều hơn.
+
+---
+
+## RULE R14: REAL-LIFE FEEDBACK = SỬA NGAY + GHI LOG
+
+**🔔 Trigger:** Khi đương số cung cấp thông tin thực tế mâu thuẫn với luận giải
+
+**Áp dụng:**
+1. ✅ GHI VÀO `_FEEDBACK_LOG.md` (FC-xxx)
+2. ✅ SỬA file liên quan NGAY + tag `[FEEDBACK YYYYMMDD]`
+3. ✅ Cập nhật Skill nếu là pattern lặp lại
+4. ✅ **Real-life feedback > lý thuyết sách vở** (priority)
+- ❌ KHÔNG giữ nguyên luận giải cũ khi đã có feedback mâu thuẫn
+- ❌ KHÔNG cần Perplexity verify — feedback thực tế = highest authority
+
+**Priority chain:** Real-life feedback > SOT JSON > Perplexity verified > Phú cổ > Agent memory
+
+---
+
+## RULE R15: NGUYỆT HẠN 3-LAYER BẮT BUỘC
+
+**🔔 Trigger:** Mọi lần viết phân tích Nguyệt Hạn (tháng)
+
+**Áp dụng:** Mỗi tháng PHẢI có 3 lớp:
+
+| Lớp | Nội dung bắt buộc | Minimum |
+|---|---|---|
+| **L1: Tinh bàn** | Chính tinh + phụ tinh trạng thái + Tràng Sinh + Ngũ Hành | Bảng sao |
+| **L2: Mệnh Foundation ③** | Phủ/Lộc/Khoa/Riêu/Cô Thần phản ứng gì | Bảng hoặc bullet 4+ items |
+| **L3: Giải Thần Pattern** | Tứ Hóa + blockquote pattern + CK/CW | Blockquote + 1 dòng CK |
+
+**Minimum lines/tháng:** ≥ 15 dòng (T1-T5 hiện ~40-60, T6-T12 hiện ~25-35)
+
+---
+
+*Created: 25/02/2026 | Updated: 15/03/2026 | Version: 5.0 — Bổ sung R13 (Riêu direction), R14 (Feedback protocol), R15 (Nguyệt Hạn 3-layer)*

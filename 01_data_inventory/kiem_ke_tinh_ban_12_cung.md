@@ -35,7 +35,7 @@
 | Phụ tinh | Thiếu Âm | — | — | Vòng Thái Tuế |
 | Phụ tinh | Bác Sĩ | — | — | Vòng Lộc Tồn |
 | Phụ tinh | Thiên Y | — | — | Vòng Trường Sinh |
-| Hung tinh | Thiên Riêu | Thủy | **Hãm** | Đào Hoa Sát |
+| Hung tinh | Thiên Riêu | Thủy | **Đắc trí/Hãm tình** | Đào Hoa Sát. RCA: Thủy đồng hành Hợi = minh mẫn (Đắc); Hợi=Mộc Dục = dâm (Hãm). Phú: *"Riêu tại Hợi vi minh mẫn"* (Toàn Thư) |
 | Hung tinh | Cô Thần | — | — | Cô quả tinh |
 | Hung tinh | Lưu Hà | — | — | Hung tinh |
 | Hung tinh | Đẩu Quân | — | — | Hung tinh |
