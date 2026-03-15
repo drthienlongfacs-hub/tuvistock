@@ -672,9 +672,144 @@ Mỗi cặp đối xung là hai cung XUNG CHIẾU — luận một cung phải n
 | **5** | **45-54** (2065-2074) | **Mão** (Nô Bộc) | Thiên Tướng (H) | ⚠️ Giảm tốc. Cấp dưới bất tài. |
 | **6** | **55-64** (2075-2084) | **Thìn** (Thiên Di) | Cơ Lương (M) + Tuần + Kiếp | ⚠️ Trí tuệ sắc bén nhưng vướng Tuần Kiếp. |
 
+---
+
+## PHẦN VI-B: ĐẠI VẬN DEEP ANALYSIS — TỪ ĐẠI VẬN 1 ĐẾN ĐẠI VẬN 6
+
+> **Nguyên lý:** Mỗi Đại Vận mang can-chi riêng, tạo BỘ TỨ HÓA LƯU VẬN riêng. Chồng Tứ Hóa Bản Mệnh (Canh) = tạo "giao thoa sóng" vận mệnh.
+
+---
+
+### ĐẠI VẬN 1: HỢI (5-14 tuổi, 2025-2034) — "PHÁO ĐÀI THIÊN PHỦ"
+
+**Tinh bàn ĐV1:** Thiên Phủ (Đắc) + Thiên Tướng chiếu từ Mão. VCD không bị Triệt!
+
+**Ngũ Hành ĐV:** Hợi (Thủy) sinh Mộc → không trực tiếp sinh Thổ Mệnh. Nhưng Phủ Đắc = **két sắt bảo vệ**. Thủy tại Hợi = **dòng chảy nuôi dưỡng**, cha mẹ cung cấp mọi thứ.
+
+**Chuỗi sự kiện:**
+
+| Lưu Niên | Tuổi | Cung LN | Sự kiện dự đoán |
+|---|:---:|---|---|
+| 2025 (Ất Tỵ) | 6 | Mão (Nô) | Bắt đầu trường, làm quen bạn bè mới |
+| 2026 (Bính Ngọ) | 7 | **Thìn** (Di) | Cơ Lương Miếu + Tuần = trí tuệ phát triển nhưng nhút nhát khi ra ngoài |
+| 2027 (Đinh Mùi) | 8 | Tỵ (Ách) | Tử Sát + Tuần: sức khỏe có sự cố nhỏ (viêm họng, dị ứng) → thoát nhanh |
+| 2028 (Mậu Thân) | 9 | Ngọ (Tài) | Nhị Không: mất đồ chơi/tiền tiêu vặt — bài học quản lý tiền ĐẦU ĐỜI |
+| 2029 (Kỷ Dậu) | 10 | Mùi (Tử) | VCD+Triệt+Hỏa: va chạm anh chị/bạn bè. Nóng nảy |
+| 2030 (Canh Tuất) | 11 | **Thân** (Thê) | Lộc Tồn Đắc: ổn định, bắt đầu có ý thức tiết kiệm |
+| 2031 (Tân Hợi) | 12 | Dậu (Huynh) | Liêm Phá Hãm + Kình: VA CHẠM mạnh bạn bè. Bị bắt nạt hoặc BẮT ĐẦU lọc bạn |
+| 2032 (Nhâm Tý) | 13 | **Tuất** (Mệnh) | VCD+Hình: năm THỨC TỈNH bản ngã. Bé bắt đầu TỰ NHẬN THỨC mình khác biệt |
+| 2033 (Quý Sửu) | 14 | Hợi (PM) | Phủ Đắc: kết thúc ĐV1 trong vòng tay cha mẹ |
+
+> **Tổng đánh giá ĐV1: 7.5/10** — Tuổi thơ được bảo vệ tốt. Rủi ro lớn nhất: LN Dậu (tuổi 12) va chạm bạn bè.
+
+---
+
+### ĐẠI VẬN 2: TÝ (15-24 tuổi, 2035-2044) — "TAM HÓA ① KHOA — TRĂNG SÁNG TRÍ TUỆ"
+
+**Tinh bàn ĐV2:** Đồng (V) + Âm (V) + **Hóa Khoa** + Hóa Kỵ + Cô Thần + Thái Tuế.
+
+**Ngũ Hành ĐV:** Thủy (Tý) cộng hưởng Đồng Âm (Thủy) = **TRÀN ĐÊ TRÍ TUỆ**. Thổ (Mệnh) khắc Thủy → bé "hút" tri thức tự nhiên. ĐẾ VƯỢNG TRÀNG SINH rơi đúng ĐV2 = **NĂNG LƯỢNG ĐỈNH CAO SUỐT 10 NĂM!**
+
+**Tam Hóa Liên Châu ① — Khoa kích hoạt:**
+- Khoa tại Phúc (bản mệnh) + ĐV2 rơi vào đúng cung Khoa → **KHOA GẤP ĐÔI.**
+- Học trường top, đứng nhất lớp, thi đại học xuất sắc, du học.
+- Kỵ đồng cung: **ganh ghét từ bạn bè, thị phi nhỏ nhặt**. Bé giỏi quá nên bị đố kỵ.
+
+> **Lê Quang Lăng:** *"ĐV2 Tý = 10 năm trí tuệ RỪNG RỰC. Khoa gấp đôi + Đế Vượng = thiên tài giai đoạn này. NHƯNG Cô Thần = cô đơn — bé sẽ cảm thấy mình khác biệt, ít bạn thân. Đây là TUỔI THƠ CỦA THIÊN TÀI: giỏi nhưng cô đơn."*
+
+> **Tổng đánh giá ĐV2: 9/10** — Giai đoạn HỌC TẬP ĐỈNH CAO. Vàng son trí tuệ.
+
+---
+
+### ĐẠI VẬN 3: SỬU (25-34 tuổi, 2045-2054) — "TAM HÓA ② QUYỀN — PHÁO ĐÀI VÀNG"
+
+**Tinh bàn ĐV3:** Vũ (M) + Tham (M) + **Hóa Quyền**.
+
+**Ngũ Hành ĐV:** Thổ (Sửu) sinh Kim (Vũ) = **cung NUÔI sao**. Sửu = Tứ Mộ (Kim Mộ) = tích trữ. KẾT HỢP: Vũ Tham Miếu + Quyền + Tứ Mộ = **kho vàng BẤT KHẢ XÂM PHẠM.**
+
+**Tam Hóa Liên Châu ② — Quyền kích hoạt:**
+- Từ HỌC (Khoa ĐV2) → sang NẮM QUYỀN (Quyền ĐV3). Tốt nghiệp → lập nghiệp → mua BĐS đầu tiên.
+- *"Vũ Tham đồng hành bất phát thiếu niên nhân"* — giờ đã 25t+, đúng lúc PHÁT.
+- Quyền = nắm quyền cơ sở vật chất. Bắt đầu có NHÀ, ĐẤT, TÀI SẢN CỐ ĐỊNH.
+
+**Cột mốc dự đoán:**
+- 25-27t: Tốt nghiệp cao học / residency. Bắt đầu đi làm chính thức.
+- 28-30t: BĐS đầu tiên. Vũ Tham Quyền = MUA ĐẤT, không mua chung cư.
+- 30-34t: Xây dựng vị thế. Quyền = "nắm cương". Trở thành phó khoa / team lead.
+
+> **Trình Minh Đức:** *"ĐV3 Sửu với Vũ Tham Quyền = 'Tay Không Bắt Giặc'. 25-34 tuổi, người này xây từ zê-rô lên. Không thừa kế gì (Nhị Không Tài), tự tay đúc vàng."*
+
+> **Tổng đánh giá ĐV3: 9.5/10** — Giai đoạn XÂY DỰNG PHÁO ĐÀI. Vàng son tài chính.
+
+---
+
+### ĐẠI VẬN 4: DẦN (35-44 tuổi, 2055-2064) — "TAM HÓA ③ LỘC — ĐỈNH CỦA ĐỜI"
+
+**Tinh bàn ĐV4:** Cự (V) + Nhật (V) + **Hóa Lộc** + Khôi + Mã (Đ) + Tang Môn.
+
+**Ngũ Hành ĐV:** Mộc (Dần) sinh Hỏa (Nhật) → **Nhật CỰC VƯỢNG**. Hỏa sinh Thổ (Mệnh) → **vòng Dần sinh cho Mệnh gấp đôi**. Tràng Sinh tại Dần = Bệnh — nhưng 5 cát tinh bù → *"ốm mà vẫn chạy marathon"*.
+
+**Tam Hóa Liên Châu ③ — Lộc kích hoạt:**
+- Từ NẮM QUYỀN (ĐV3) → sang THU HOẠCH (Lộc ĐV4).
+- Lộc + Mã + Khôi = **kiếm tiền QUỐC TẾ, được quý nhân ĐỠ ĐẦU, di chuyển liên tục.**
+- Cự Nhật soi sáng = DANH TIẾNG ĐỈNH CAO. Trở thành chuyên gia hàng đầu.
+
+**Cột mốc dự đoán:**
+- 35-37t: Thăng chức lớn. Trưởng khoa / Giám đốc / Chuyên gia cấp cao.
+- 38-40t: Thu nhập gấp 5-10 lần. Lộc Mã = bay hội nghị quốc tế liên tục.
+- 40-44t: Danh tiếng chuyên gia. *"Cự Nhật Dần cung, quan phong tam đại"* — thành hiện thực.
+
+> **Cụ Thiên Lương:** *"ĐV4 Dần = CUNG ĐẸP NHẤT LÁ SỐ gặp đúng Tam Hóa thứ 3. Đây là lúc mọi thứ CHÍN MUỒI: trí tuệ (Khoa ĐV2) + tài sản (Quyền ĐV3) + lộc trời (Lộc ĐV4) = BỘ BA HOÀN HẢO."*
+
+> **Tổng đánh giá ĐV4: 10/10** — ĐỈNH CỦA ĐỜI. Vàng son sự nghiệp + tài chính.
+
+---
+
+### ĐẠI VẬN 5: MÃO (45-54 tuổi, 2065-2074) — "HẠ CÁNH SAU ĐỈNH"
+
+**Tinh bàn ĐV5:** Thiên Tướng (Hãm). Tràng Sinh = TỬ.
+
+**Phân tích:** Sau 30 năm vàng, ĐV5 = **hạ cánh mềm**. Tướng Hãm = cấp dưới/đối tác không đáng tin. Tràng Sinh = Tử (năng lượng cạn). Nhưng ĐÃ TÍCH LŨY ĐỦ → sống bằng TÀI SẢN TÍCH LŨY.
+
+**Chiến lược:** Từ lãnh đạo → cố vấn. Từ hội nghị → viết sách. Từ kiếm tiền → hưởng thụ BĐS (Vũ Tham Quyền đã xây từ ĐV3).
+
+> **Tổng đánh giá ĐV5: 5.5/10** — Giảm tốc tự nhiên. Nghỉ ngơi.
+
+---
+
+### ĐẠI VẬN 6: THÌN (55-64 tuổi, 2075-2084) — "THẦY GIÁO LY HƯƠNG"
+
+**Tinh bàn ĐV6:** Cơ (M) + Lương (M) + Tuần + Kiếp (H). Tràng Sinh = MỘ.
+
+**Phân tích:** Cơ Lương Miếu = **trí tuệ vẫn sắc bén**. Tuần + Mộ = kiến thức "cất kho" — viết hồi ký, truyền nghề, giảng dạy. Kiếp Hãm = mất mát bất ngờ (bạn cũ qua đời, thay đổi môi trường).
+
+**Chiến lược:** Truyền thừa kiến thức. Giảng dạy, đào tạo thế hệ kế nhiệm. *"Cơ Lương Thìn Tuất, cao hữu nghệ tùy thân"* — tài nghệ theo suốt đời, giờ là lúc TRUYỀN LẠI.
+
+> **Tổng đánh giá ĐV6: 6.5/10** — Trí tuệ sáng, thể chất suy. Giai đoạn truyền thừa.
+
+---
+
+### 📊 BẢN ĐỒ 30 NĂM VÀNG — ĐẠI VẬN BLUEPRINT
+
+```
+ĐV1 (5-14)    ĐV2 (15-24)    ĐV3 (25-34)    ĐV4 (35-44)    ĐV5 (45-54)    ĐV6 (55-64)
+   Hợi            Tý              Sửu            Dần             Mão            Thìn
+   Phủ(Đ)        Đồng Âm(V)       Vũ Tham(M)     Cự Nhật(V)      Tướng(H)      Cơ Lương(M)
+   ⭐ 7.5         ⭐ 9.0           ⭐ 9.5          ⭐⭐ 10.0        ⚠️ 5.5        ⚠️ 6.5
+   BẢO VỆ         KHOA            QUYỀN           LỘC            HẠ CÁNH       TRUYỀN THỪA
+                  ┌──────────── TAM HÓA LIÊN CHÂU ────────────┐
+                  │  15-44t: 30 NĂM VÀNG SON                   │
+                  │  HỌC → SỞ HỮU → THU HOẠCH                 │
+                  └─────────────────────────────────────────────┘
+```
+
+> **So sánh Cha-Con:**
+> - **Long:** Tam Hóa chồng ĐV kém hòa hợp (Lộc Khoa đồng cung, Quyền lệch Di). Đỉnh ĐV4 = 8.5/10.
+> - **Cà Rốt:** Tam Hóa XUYÊN ĐỀU 3 ĐV liên tiếp = hiếm. Đỉnh ĐV4 = **10/10**. Con **VƯỢT cha** ở hiệu quả Tam Hóa.
+
 > **Trình Minh Đức:** *"Khi Tam Hóa Liên Châu rơi đúng vào 3 Đại Vận liên tiếp, đó là 'đường ray vàng' — người này cứ đi thẳng 30 năm là tới đỉnh, không cần nhìn ngang nhìn ngửa."*
 
-> **Lê Quang Lăng:** *"Đại Vận Tý (15-24) đắc Khoa = Đứng nhất lớp. Đại Vận Sửu (25-34) đắc Quyền = Nắm tài sản. Đại Vận Dần (35-44) đắc Lộc = Thu hoạch. Đây là vòng đời HOÀN HẢO: HỌC → SỞ HỮU → THU HOẠCH. Rất ít lá số được hưởng Tam Hóa xuyên Đại Vận như vậy."*
+> **Lê Quang Lăng:** *"Đại Vận Tý (15-24) đắc Khoa = Đứng nhất lớp. Đại Vận Sửu (25-34) đắc Quyền = Nắm tài sản. Đại Vận Dần (35-44) đắc Lộc = Thu hoạch. Đây là vòng đời HOÀN HẢO: HỌC → SỞ HỮU → THU HOẠCH."*
 
 ---
 
