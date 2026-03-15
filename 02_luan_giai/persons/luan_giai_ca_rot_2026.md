@@ -425,6 +425,118 @@
 
 > **Phú Cổ:** *"Liêm Phá cư Dậu, hình khắc nan miễn"*
 
+**Luận Giáp:** Mệnh Tuất bị giáp trái Dậu (Liêm Phá Hãm + Kình Hãm) = **giáp hung nặng** — anh em/bạn bè gây hại liên tục. Giáp phải Hợi (Phủ Đắc) = **giáp cát** — cha mẹ bảo vệ. Một bên dao, một bên khiên → bé phải QUAY VỀ PHÍA CHA MẸ, tránh xa nhóm bạn xấu.
+
+### 2.6 Lục Hại — Mài Mòn Ngầm
+
+Lục Hại = 6 cặp cung xung khắc ngầm — không phá bùng mà mài mòn âm thầm.
+
+| Cặp Lục Hại | Cung | Tác động | Áp dụng Cà Rốt |
+|---|---|---|---|
+| **Tuất-Dậu** | Mệnh ↔ Huynh | Bản thân bị anh em mài mòn | ⛔ Mệnh VCD + Huynh Liêm Phá Hãm = **bé bị bạn bè "ăn mòn" tính cách** |
+| **Hợi-Thân** | Phụ Mẫu ↔ Thê | Cha mẹ ảnh hưởng hôn nhân | ⚠️ Phủ Đắc(Hợi) hại VCD Lộc Tồn(Thân) = cha mẹ giàu nhưng VÔ TÌNH **ÉP** bé chọn người vợ/chồng theo ý cha mẹ |
+| **Tý-Mùi** | Phúc ↔ Tử | Phúc đức "hại" con cái | ⚠️ Đồng Âm Khoa Kỵ(Tý) hại VCD Triệt(Mùi) = **phúc đức quá mạnh khiến con cái bị áp lực kỳ vọng** — bé giỏi quá → con bé cũng phải giỏi → áp lực |
+
+> **Cụ Thiên Lương:** *"Lục Hại là thứ mài mòn không ai thấy. Tuất-Dậu: bạn bè cập kè hàng ngày, tưởng vô hại, nhưng 10 năm qua = bé đã mất đi sự ngây thơ. Hợi-Thân: cha mẹ yêu thương nhưng ÁP ĐẶT — yêu thương kiểu 'mài mòn'. Bé cần tự do nội tâm."*
+
+---
+
+### 🔑 TỔNG KẾT MỆNH (TUẤT) — CÂN BẰNG TINH TẾ
+
+| Chiều | Hung/Cát | Điểm NET | Cơ chế |
+|---|:---:|:---:|---|
+| **Bản cung (40%)** | 🟡 Hỗn hợp | **+2.8** | VCD linh hoạt, Hồng Loan+Ân Quang che chở, nhưng Hình Hãm+Quả Tú gò bó |
+| **Chiếu (30%)** | ⭐ Cát mạnh | **+2.4** | Cơ Lương Miếu chiếu = nóc nhà VÀNG, nhưng Tuần+Kiếp cản |
+| **Tam hợp (20%)** | ⭐⭐ Rất cát | **+3.0** | Cự Nhật Lộc Mã Khôi (Dần) CỰC MẠNH + VCD Nhị Không (Ngọ) yếu → Quan kéo cả chuỗi |
+| **Nhị hợp (10%)** | ⛔ Hung | **-0.3** | Tướng Hãm Mão = bạn bè yếu, không đáng tin |
+| **Giáp (~5%)** | ⚠️ Hỗn hợp | **+0.2** | Dậu hung + Hợi cát → triệt tiêu nhau |
+| **TỔNG NET** | **🟢 TÍCH CỰC** | **+8.1** | Mệnh VCD nhưng được TAM HỢP (Quan Lộc) kéo lên MẠNH NHẤT. Trí tuệ (xung chiếu Cơ Lương) + Sự nghiệp (tam hợp Cự Nhật) = **2 trụ cột chính** |
+
+> **So sánh với Long:** Long Mệnh NET = +4.0 (Phủ Đắc mạnh nhưng bị Giáp Không Kiếp nặng). Cà Rốt Mệnh NET = **+8.1** (VCD yếu bản cung nhưng tam hợp CỰC MẠNH). → **Con VƯỢT cha ở tam hợp Mệnh** — sự nghiệp kéo Mệnh lên.
+
+---
+
+## PHẦN II-B: TỨ HÓA PHI TINH — CHUỖI NHÂN QUẢ DEEP ANALYSIS
+
+> **Nguyên lý Tứ Hóa Chuỗi:** Hóa Lộc = NGUỒN → Hóa Quyền = QUÁ TRÌNH → Hóa Khoa = KẾT QUẢ → Hóa Kỵ = GIÁ PHẢI TRẢ.
+> **Can Canh Tứ Hóa:** Dương Lộc (Dần) → Vũ Quyền (Sửu) → Âm Khoa (Tý) → Đồng Kỵ (Tý).
+
+---
+
+### A. TỰ HÓA — KHI HÓA TINH RƠI VÀO CUNG CÓ SAO CHỦ
+
+| # | Tự Hóa | Sao | Cung | Ý nghĩa | Hệ quả |
+|:---:|---|---|---|---|---|
+| 1 | **Lộc Tự Hóa** | Dương Lộc tọa Dần (Dương Vượng) | Quan Lộc | Lộc phi vào cung CÓ sao chủ Vượng = **TỰ SINH LỘC** | ⭐ Sự nghiệp **TỰ TẠO TIỀN** — không cần ai cho, tự kiếm |
+| 2 | **Quyền Tự Hóa** | Vũ Quyền tọa Sửu (Vũ Miếu) | Điền Trạch | Quyền phi vào cung CÓ sao chủ Miếu = **TỰ NẮM QUYỀN** | ⭐ BĐS **TỰ KIỂM SOÁT** — không ai tranh được |
+| 3 | **Khoa Kỵ ĐỒ** | Âm Khoa + Đồng Kỵ đều tại Tý | Phúc Đức | Khoa+Kỵ ĐỒ = **trí tuệ + thị phi CHUNG NHÀ** | ⚠️ **Thông minh tuyệt đỉnh nhưng bất an nội tâm** |
+
+> **Nhận định Tự Hóa:** 2/4 Hóa = Tự Hóa (Lộc tại Quan, Quyền tại Điền) = **người TỰ LẬP**. Không ai cho tiền (Lộc tự sinh), không ai cho quyền (Quyền tự nắm). Khoa+Kỵ đồng tại Phúc = **giá phải trả nằm ở NỘI TÂM, không phải vật chất**.
+
+---
+
+### B. SONG HÓA — KHI 2 HÓA RƠI CÙNG CUNG
+
+**Khoa + Kỵ đồng cung Tý (Phúc Đức)** — Đây là Song Hóa đặc biệt nhất:
+
+| Cơ chế | Phân tích | Hệ quả thực tế |
+|---|---|---|
+| **Khoa kiểm soát Kỵ** | Khoa "sáng" = tri thức. Kỵ "tối" = thị phi. Khoa che được Kỵ nếu Khoa MẠNH HƠN | ⭐ Nếu bé được GIÁO DỤC TỐT → Khoa > Kỵ → cực thông minh |
+| **Kỵ ăn mòn Khoa** | Kỵ "nước" tràn. Khoa bị ngập | ⛔ Nếu bé KHÔNG ĐƯỢC hướng dẫn cảm xúc → Kỵ > Khoa → lo lắng triền miên |
+| **Phúc Đức** | Cung nền tảng tâm linh | ⚠️ Tổ tiên để phúc (Khoa) + nghiệp (Kỵ) CÙNG LÚC. Bé thừa kế cả may mắn lẫn gánh nặng |
+
+> **Phú:** *"Khoa Kỵ đồng hành, thông minh tuyệt kỹ mà lòng bất an"* — Cực thông minh nhưng nội tâm bất ổn.
+>
+> **Chiến lược giáo dục:** Dạy bé **thiền/yoga từ 10 tuổi**. Viết nhật ký cảm xúc. Cho bé BIỂU ĐẠT (Khoa = nói ra) thay vì giữ trong lòng (Kỵ = nuốt vào). Khoa > Kỵ = THÀNH CÔNG; Kỵ > Khoa = TRẦM CẢM.
+
+---
+
+### C. TAM HÓA LIÊN CHÂU — PHÂN TÍCH CHUỖI NHÂN QUẢ
+
+```
+                         ┌─────────────────────────────────┐
+                         │    CHUỖI TỨ HÓA CAN CANH        │
+                         │    (Nhân Quả Dây Chuyền)         │
+                         └─────────────┬───────────────────┘
+                                       │
+             ┌─────────────────────────┼─────────────────────────┐
+             ▼                         ▼                         ▼
+     ① NGUYÊN NHÂN            ② QUÁ TRÌNH              ③ KẾT QUẢ
+     Lộc tại Quan (Dần)       Quyền tại Điền (Sửu)     Khoa tại Phúc (Tý)
+     Dương V + Cự V           Vũ M + Tham M             Đồng V + Âm V
+     "Sự nghiệp SÁNG"        "Nắm quyền BĐS"          "Phúc có tri thức"
+             │                         │                         │
+             ▼                         ▼                         ▼
+     Danh tiếng → Tiền       Tiền → Đất đai            Trí tuệ → Hậu thế
+             └─────────────────────────┼─────────────────────────┘
+                                       │
+                                       ▼
+                               ④ GIÁ PHẢI TRẢ
+                               Kỵ tại Phúc (Tý)
+                               Đồng V (bị Kỵ)
+                               "Thương tổn nội tâm"
+```
+
+> **Đọc chuỗi:** Sự nghiệp rực rỡ (Lộc) → nắm quyền tài sản (Quyền) → dòng họ có tri thức (Khoa) → **GIÁ:** thị phi ngầm trong dòng họ, cảm xúc bất ổn (Kỵ).
+>
+> **Đặc biệt: Khoa + Kỵ CÙNG CUNG** = kết quả + giá phải trả Ở CÙNG MỘT NƠI (Phúc). Nghĩa là: **phúc đức VỪA sáng VỪA tối** — cùng một gia đình vừa được May Mắn vừa gánh Nghiệp. Đây là loại lá số "tu hành trong tư gia" — không cần đi chùa, tu ngay trong gia đình.
+
+---
+
+### D. TỨ HÓA × ĐẠI VẬN — GIAO THOA SÓNG
+
+| ĐV | Cung | Tứ Hóa BM rơi vào? | Sóng giao thoa |
+|:---:|---|---|---|
+| **ĐV1** (Hợi) | Phụ Mẫu | Không có Tứ Hóa BM trực tiếp | 🟡 Yên tĩnh — bảo vệ bởi Phủ |
+| **ĐV2** (Tý) | Phúc | **Khoa + Kỵ** tại đây! | ⭐⛔ **CỘNG HƯỞNG CỰC ĐẠI** — Khoa gấp đôi + Kỵ gấp đôi. Thiên tài + bất an |
+| **ĐV3** (Sửu) | Điền | **Quyền** tại đây! | ⭐ Quyền gấp đôi — BĐS bùng nổ 100% đúng theo Tứ Hóa |
+| **ĐV4** (Dần) | Quan | **Lộc** tại đây! | ⭐⭐ Lộc gấp đôi — sự nghiệp ĐẠI PHÁT, cộng hưởng mạnh nhất |
+| **ĐV5** (Mão) | Nô | Không có | ⚠️ Ra khỏi vùng Tứ Hóa → giảm tốc tự nhiên |
+
+> **Nhận định critical:** ĐV2-3-4 RƠI ĐÚNG 3 cung có Tứ Hóa Bản Mệnh = **HIỆN TƯỢNG CỰC HIẾM**. Tứ Hóa và Tam Hóa Liên Châu **ĐỒNG PHA** hoàn hảo. 30 năm (15-44 tuổi) = Tứ Hóa x 2 → sóng giao thoa CONSTRUCTIVE (cộng hưởng tăng cường).
+
+> **So sánh với Long:** Long: Tứ Hóa rải 4 cung khác nhau, ĐV không trùng đều → sóng giao thoa PARTIAL. Cà Rốt: Tứ Hóa trùng ĐV → sóng CONSTRUCTIVE 100%. → **Hiệu suất Tứ Hóa Cà Rốt = VƯỢT Long.**
+
 ---
 
 ## PHẦN III: TAM HÓA LIÊN CHÂU — CÁCH CỤC ĐỈNH CAO
