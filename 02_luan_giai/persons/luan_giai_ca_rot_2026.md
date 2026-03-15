@@ -818,6 +818,8 @@ Mỗi cặp đối xung là hai cung XUNG CHIẾU — luận một cung phải n
 > Dương Nam thuận: Tuất(1) → Hợi(2) → Tý(3) → Sửu(4) → Dần(5) → Mão(6) → **Thìn(7)**.
 > → **Lưu Niên 2026 = Thìn (Thiên Di).**
 
+### 7.1 TỔNG QUAN CUNG LƯU NIÊN
+
 | Hạng mục | Chi tiết |
 |---|---|
 | **Cung** | **Thìn** (Thiên Di) — Cơ Lương (M) + Tuần + Kiếp |
@@ -825,22 +827,99 @@ Mỗi cặp đối xung là hai cung XUNG CHIẾU — luận một cung phải n
 | **Hung** | Tuần mờ đi cơ hội + Kiếp hãm mất đồ/va chạm nhỏ |
 | **Tổng** | ⚠️ **6.5/10** — Trí tuệ phát triển, nhưng cẩn thận khi ra ngoài |
 
+### 7.2 TỨ HÓA LƯU NIÊN BÍNH NGỌ
+
+> **Can Bính:** Đồng Lộc → Cơ Quyền → Xương Khoa → Liêm Kỵ.
+
+| Hóa LN | Sao | Cung bản mệnh | Nhận định |
+|---|---|---|---|
+| **Lưu Lộc** | Thiên Đồng | **Tý (Phúc)** | ✅ Đồng Vượng + Lộc LN tại Phúc = **phúc đức khai lộc**. Năm 2026 được tổ tiên phù hộ thêm |
+| **Lưu Quyền** | Thiên Cơ | **Thìn (Di)** | ⭐ Cơ Miếu + Quyền tại Di = **ra ngoài NẮM QUYỀN**. Bé tự tin hơn, dám quyết định ở trường |
+| **Lưu Khoa** | Văn Xương | **Tỵ (Ách)** | ✅ Xương Đắc + Khoa tại Ách = **sức khỏe sáng suốt**. Bé khéo tay, giỏi hobby kỹ thuật |
+| **Lưu Kỵ** | Liêm Trinh | **Dậu (Huynh)** | ⛔ Liêm Hãm + Kỵ tại Huynh = **thị phi bạn bè TĂNG GẤP ĐÔI**. Năm 2026 bé dễ bị bạn nói xấu |
+
+> **Chuỗi Lưu Niên Tứ Hóa:**
+> Lộc(Phúc) → Quyền(Di) → Khoa(Ách) → Kỵ(Huynh)
+> **Dịch:** Phúc đức phù hộ (Lộc) → đi ra ngoài có thế (Quyền) → sức khỏe sáng (Khoa) → NHƯNG bạn bè gây rối (Kỵ).
+>
+> **Chiến lược 2026:** Cho bé tham gia hoạt động ngoại khóa (Quyền Di), tập thể thao (Khoa Ách), nhưng GIÁM SÁT nhóm bạn (Kỵ Huynh). Cha mẹ cầu nguyện/tâm linh (Lộc Phúc) để khai phúc.
+
+### 7.3 TỔNG QUAN 12 THÁNG ÂM LỊCH 2026
+
+| Tháng | Cung Nguyệt Hạn | Chính tinh | Điểm | Nhận định |
+|:---:|---|---|:---:|---|
+| T1 (Dần) | Quan Lộc | Cự Nhật V + Lộc Mã Khôi | ⭐ **9** | Khai trường rực rỡ, được thầy cô khen |
+| T2 (Mão) | Nô Bộc | Tướng H | ⚠️ **4** | Bạn bè gây rối, va chạm nhóm |
+| T3 (Thìn) | **Thiên Di** | Cơ Lương M + Tuần | ⭐ **7** | Tháng chủ đạo LN: trí thức phát triển, nhút nhát |
+| T4 (Tỵ) | Tật Ách | Tử Sát + Tuần | ⚠️ **5** | Sức khỏe nhẹ: viêm họng, ho. Thoát nhanh |
+| T5 (Ngọ) | Tài Bạch | VCD + Nhị Không | ⚠️ **3** | Mất đồ chơi/đồ dùng học tập |
+| T6 (Mùi) | Tử Tức | VCD + Triệt + Hỏa | ⚠️ **4** | Nóng nảy, khóc nhiều, kén ăn |
+| T7 (Thân) | Phu Thê | VCD + Lộc Tồn Đ | ✅ **7** | Ổn định, gia đình vui vẻ |
+| T8 (Dậu) | **Huynh Đệ** | Liêm Phá H + Kình + Kỵ LN | ⛔ **2** | **THÁNG NGUY HIỂM NHẤT!** Bạn bè gây sự cố lớn |
+| T9 (Tuất) | **Mệnh** | VCD + Hình + Hồng Loan | ⚠️ **5** | Bé tự nhìn lại bản thân, nhạy cảm |
+| T10 (Hợi) | Phụ Mẫu | Phủ Đ | ⭐ **8** | Cha mẹ bảo vệ, ổn định |
+| T11 (Tý) | Phúc Đức | Đồng Âm V + Khoa + Lộc LN | ⭐ **9** | Trí tuệ sáng nhất, thi cử tốt |
+| T12 (Sửu) | Điền Trạch | Vũ Tham M + Quyền | ⭐ **8** | Kết năm vui, được quà/thưởng lớn |
+
+> **3 tháng CẦN CHÚ Ý NHẤT 2026:**
+> 1. **T8 (Dậu) — ⛔ 2/10:** Liêm Phá Hãm + Kình + Lưu Kỵ chồng = THÁNG HUNG NHẤT. Bé có thể bị bạn lôi kéo, va chạm thể chất. **Cha mẹ: THEO SÁT.**
+> 2. **T5 (Ngọ) — ⚠️ 3/10:** Nhị Không hoạt = mất đồ. Dạy bé cất giữ đồ vật cẩn thận.
+> 3. **T6 (Mùi) — ⚠️ 4/10:** Hỏa Hãm + Triệt = nóng nảy, bướng bỉnh. Kiên nhẫn, không phạt nặng.
+
 ---
 
 ## PHẦN VIII: CẨM NANG NUÔI DẠY (ACTION PLAN 2026-2040)
 
-| Vấn đề | Tinh Bàn | Hành động |
+### A. SỰ NGHIỆP — Định hướng từ lá số
+
+| Giai đoạn | Chiến lược | Căn cứ tinh bàn |
 |---|---|---|
-| **Sự Nghiệp** | Nhật Cự Lộc Khôi Mã (Dần) + Cơ Lương Miếu (Thìn) | **Ngoại ngữ** từ nhỏ. Du học (Mã). Ngành: **Y Khoa, Luật, Ngoại Giao, Cố vấn**. |
-| **Tam Hóa Liên Châu** | Khoa→Quyền→Lộc xuyên ĐV 2-3-4 | **30 năm vàng (15-44t).** Đầu tư học vấn → Tài sản → Thu hoạch sự nghiệp. |
-| **Dòng Tiền** | Tài Bạch Nhị Không + Phượng Khốc Khách | Dạy quản lý tiền từ tiểu học. Dồn vào **Điền Trạch** (Vũ Tham Quyền). Để vợ quản tiền sau này. |
-| **Bảo Vệ** | Di Thìn: Tuần + Kiếp | Cha mẹ theo dõi khi ra ngoài. Dạy tư duy lường rủi ro. |
-| **Gia Đạo** | Thân cư Thê + Lộc Tồn (KHÔNG TRIỆT) | Cung thê đại cát. Không cưới sớm (sau 30t). |
-| **Sức Khỏe** | Tật Ách Tử Sát Linh + Mệnh Thiên Hình | Thể thao đối kháng có bảo hộ. Tránh tai nạn bất ngờ. |
+| **5-14t** (ĐV1) | Ngoại ngữ Anh từ 6t. Thể thao kỹ thuật (cầu lông, bơi, võ). Đọc sách khoa học. | Cơ Lương Miếu (Di) = trí tuệ cần kích hoạt sớm. Linh Đắc + Xương Đắc (Ách) = phản xạ nhanh |
+| **15-24t** (ĐV2 Khoa) | Thi vào trường top. Du học nếu có cơ hội (Mã Đắc). Ngành: **Y Khoa, Luật, Cố vấn, Ngoại giao**. | Khoa gấp đôi + Đế Vượng = thiên tài giai đoạn này |
+| **25-34t** (ĐV3 Quyền) | Tốt nghiệp → lập nghiệp → MUA ĐẤT đầu tiên. Xây vị thế chuyên gia. | Vũ Tham Quyền = tay không bắt giặc, giàu từ BĐS |
+| **35-44t** (ĐV4 Lộc) | Thăng chức quốc tế. Bay hội nghị. Trở thành KOL ngành. | Lộc Mã Khôi = kiếm tiền quốc tế, quý nhân đỡ đầu |
+
+### B. TÀI CHÍNH — Hóa giải Nhị Không Tài
+
+| Vấn đề | Giải pháp | Căn cứ |
+|---|---|---|
+| Tiền mặt khó giữ | Dạy quản lý tiền từ **tiểu học**. Lập sổ chi tiêu từ 10t. | Tài Bạch Nhị Không = thủng đáy |
+| Kênh đầu tư | **BĐS** là số 1. Không chứng khoán/tiền ảo. | Vũ Tham Quyền tại Điền = pháo đài BĐS |
+| Quản lý tài sản | Để **bạn đời quản tiền** sau hôn nhân. | Lộc Tồn Đắc tại Thê/Thân = vợ giỏi giữ tiền |
+
+### C. GIA ĐẠO — Bảo vệ cung Thê đại cát
+
+| Vấn đề | Chiến lược | Căn cứ |
+|---|---|---|
+| Hôn nhân | Cưới **SAU 30 tuổi** (khi ĐV3 đã kích hoạt Quyền). Không cưới sớm. | Vũ Tham bất phát thiếu niên |
+| Phối ngẫu lý tưởng | Người minh bạch (Cự Nhật chiếu), giỏi tài chính (Lộc Tồn). Ngành luật/kinh doanh. | Cung Thê mượn Cự Nhật V + Lộc Tồn Đ |
+| Anh em | **LỌC BẠN KỸ** từ nhỏ. Tránh bị lôi kéo bởi nhóm xấu. | Liêm Phá Hãm + Kình tại Huynh = chiến trường |
+
+### D. SỨC KHỎE — Tử Sát bảo vệ + Hình cảnh báo
+
+| Vấn đề | Chiến lược | Căn cứ |
+|---|---|---|
+| Sức khỏe bẩm sinh | CỰC MẠNH. Tử Sát = hệ miễn dịch cấp vua. | Tử Vi Miếu + Sát Vượng tại Ách |
+| Rủi ro | Viêm nhiệt (Hỏa cung), stress (Tử Vi cư Ách = bệnh tâm não). Tai nạn nhỏ (Hình Hãm). | Tỵ = Hỏa vượng. Hình = dao kéo |
+| Phòng ngừa | Thể thao **có bảo hộ** (bơi, cầu lông, không đá bóng mạnh). Yoga/thiền khi lớn. | Linh Đắc + Xương Đắc = phản xạ nhanh, khéo tay |
+
+### E. GIÁO DỤC NỘI TÂM — Đế Vượng tại Phúc
+
+| Vấn đề | Chiến lược | Căn cứ |
+|---|---|---|
+| Cảm xúc | Dạy bé **BIỂU ĐẠT CẢM XÚC** — bé giỏi nhưng giữ trong lòng (Quả Tú + VCD Mệnh). | Khoa Kỵ đồng cung Phúc = thông minh nhưng bất an |
+| Tâm linh | Cha mẹ hướng dẫn TỪ THIỆN, BIẾT ƠN từ nhỏ = kích hoạt Đế Vượng Phúc. | Đế Vượng tại Phúc = phúc đức là tài sản lớn nhất |
+| Cô đơn | Bé KHÔNG cô đơn ngoài xã hội (Hồng Loan, Ân Quang) nhưng cô đơn NỘI TÂM. Tạo không gian riêng để bé suy nghĩ. | Quả Tú Mệnh + Cô Thần Phúc |
 
 ---
 
-> *"Lá số Cà Rốt sở hữu Tam Hóa Liên Châu hiếm có — Khoa, Quyền, Lộc xuyên suốt 3 Đại Vận (15-44 tuổi), kết hợp Cự Nhật Khôi Mã tại Quan Lộc và Cơ Lương Miếu chiếu Mệnh. Như Cụ Thiên Lương từng nói: 'Ngôi nhà mượn nóc nhưng nóc bằng vàng thì hơn nhà tự có mái lá.' Cha mẹ — Thiên Phủ Đắc tại Phụ Mẫu — chính là Khung Mộc bảo vệ viên ngọc Bích Thượng Thổ này, để bé phá được Thiên La bay lên đỉnh cao."*
+> **TỔNG KẾT LÁ SỐ CÀ RỐT:**
+>
+> *"Lá số Cà Rốt sở hữu Tam Hóa Liên Châu hiếm có — Khoa, Quyền, Lộc xuyên suốt 3 Đại Vận (15-44 tuổi), kết hợp Cự Nhật Khôi Mã tại Quan Lộc và Cơ Lương Miếu chiếu Mệnh. Đế Vượng Tràng Sinh rơi vào Phúc Đức — năng lượng đỉnh cao ở NỘI TÂM, không phải ngoại hình. 6/8 bộ chính tinh Miếu/Vượng. Tam Hóa xuyên Đại Vận = 30 năm vàng son.*
+>
+> *Như Cụ Thiên Lương từng nói: 'Ngôi nhà mượn nóc nhưng nóc bằng vàng thì hơn nhà tự có mái lá.' Cha mẹ — Thiên Phủ Đắc tại Phụ Mẫu — chính là Khung Mộc bảo vệ viên ngọc Bích Thượng Thổ này, để bé phá được Thiên La bay lên đỉnh cao.*
+>
+> *So sánh cha-con: Con VƯỢT cha ở Tam Hóa hiệu quả (10/10 vs 8.5/10), GIÀU PHÚC hơn (Đế Vượng Phúc), MẠNH SỨC KHỎE hơn (Tử Sát Ách). Cha mạnh hơn con ở giao tiếp (Tử Sát Di) và trải nghiệm hôn nhân (Đế Vượng Thê). Nghiệp cha truyền con nối — nhưng đường con ĐI XA HƠN."*
 
 ---
 
