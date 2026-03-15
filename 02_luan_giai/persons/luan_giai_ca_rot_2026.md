@@ -701,31 +701,89 @@ Quan Lộc ở giai đoạn **Bệnh** — năng lượng Thổ yếu bẩm sinh
 
 ## PHẦN V: CHÂN DUNG 4 CUNG TRỌNG YẾU KHÁC
 
-### 1. PHÚC ĐỨC (Tý) — ĐỒNG ÂM (V) + HÓA KHOA + HÓA KỴ + THÁI TUẾ
-- **Kho báu tổ tiên:** Thiên Đồng Thái Âm Vượng = Tổ ấm phúc lộc bền chặt.
-- **Khoa - Kỵ đồng cung:** Trí tuệ quá cao nên ngầm bị đố kỵ.
+### 1. PHÚC ĐỨC (Tý) — ĐỒNG ÂM (V) + HÓA KHOA + HÓA KỴ + THÁI TUẾ — ĐẾ VƯỢNG
 
-> **Phú Cổ:** *"Đồng Âm Tý ngọ, trung thân bất lụy"* — Đồng Âm ở Tý suốt đời không sa sút (nếu không gặp nhiều sát).
+**Ngũ Hành:** Tý (Thủy) sinh Đồng (Thủy) + Âm (Thủy) = **CỰC CỘNG HƯỞNG**. Tràng Sinh = **ĐẾ VƯỢNG** = đỉnh cao năng lượng Mệnh.
 
-### 2. ĐIỀN TRẠCH (Sửu) — VŨ THAM (M) + HÓA QUYỀN
-- **Đất đai vô lượng.** Vũ Tham Miếu = Từ 35+ tuổi, tài sản cố định bùng nổ.
+**Luận Deep:**
+- **Đồng Âm Vượng** = Phúc đức cực sáng. Thiên Đồng (Phúc) + Thái Âm (Tài ẩn) = dòng họ VỪA AN NHÀN VỪA GIÀU NGẦM.
+- **Hóa Khoa** = Phúc trí tuệ — bé được tổ tiên "cho" bộ não sáng bẩm sinh.
+- **Hóa Kỵ** = Phúc kèm nghiệp — tổ tiên để lại thị phi hoặc nợ nghiệp tinh thần. Bé thông minh nhưng **HAY LO LẮNG VÔ CỚ**.
+- **Cô Thần + Thái Tuế** = cô đơn trong suy nghĩ, dễ bị "cãi không biết cãi với ai" (Tuế = thị phi pháp lý).
 
-> **Phú Cổ:** *"Tham Vũ đồng hành, vãn niên y lộc noãn phong dinh"* — Tham Vũ cùng đi, cuối đời áo ấm cơm no, gió ấm nhà đầy.
-> *"Tham Vũ đồng hành bất phát thiếu niên nhân"* — Tham Vũ cùng đi, trẻ không phát, phải đợi tuổi.
+> **Phú Cổ:** *"Đồng Âm Tý ngọ, trung thân bất lụy"* — Đồng Âm ở Tý suốt đời không sa sút.
+> *"Khoa Kỵ đồng hành, hoạ phúc tương y"* — Khoa Kỵ đi cùng = họa phúc bám nhau.
 
-> **Trình Minh Đức:** *"Vũ Tham tại Sửu Mùi gặp Hóa Quyền là cách 'Tay Không Bắt Giặc' — người này không thừa kế gì cả, tự tay xây toàn bộ gia sản."*
+> **Cụ Thiên Lương:** *"Phúc Đức Đế Vượng + Khoa = 'Kho vàng không đáy'. Nhưng Kỵ đồng cung = kho vàng có MA TRẬN — giàu phúc nhưng phải biết QUẢN, nếu không thì lo lắng nuốt hết phúc."*
 
-### 3. TẬT ÁCH (Tỵ) — TỬ SÁT (M/V) + LINH TINH (Đ) + TUẦN
-- Thể chất kim cương (Tử Vi + Thất Sát). Linh Tinh = sự cố cấp tính. Tuần hóa giải ~70%.
+**So sánh Long:** Long: Phúc = Tử Vi Miếu + Kỵ + Linh. Cà Rốt: Phúc = Đồng Âm + Khoa + Kỵ + Đế Vượng. **Cà Rốt PHÚC HƠN** (Đế Vượng + Khoa), nhưng **CẢ HAI đều có Kỵ tại Phúc** — dòng họ để phúc kèm nghiệp = di truyền.
 
-> **Phú Cổ:** *"Thất Sát triều đẩu, tước lộc vinh xương"* (Sát hướng Tử Vi = dùng được, không phá).
+### 2. ĐIỀN TRẠCH (Sửu) — VŨ THAM (M) + HÓA QUYỀN — PHÁO ĐÀI
+
+**Ngũ Hành:** Sửu (Thổ) sinh Kim (Vũ) = **cung NUÔI sao**. Tràng Sinh = Suy → tích lũy CHẬM.
+
+**Luận Deep:**
+- **Vũ Tham Miếu** = "Tay Không Bắt Giặc". Cặp sao CHIẾN BINH — từ tay trắng xây lên lâu đài.
+- **Hóa Quyền** = NẮM quyền tài sản cố định. BĐS, đất đai = triều đình riêng, không ai xâm phạm.
+- **Tràng Sinh SUY** = tích lũy CHẬM nhưng BỀN. Không phát nhanh mà PHÁT DÀI. Mọi người quanh bé giàu nhanh hơn nhưng bé giàu LÂU hơn.
+
+> **Phú Cổ:** *"Tham Vũ đồng hành, vãn niên y lộc noãn phong dinh"* — Cuối đời áo ấm cơm no.
+> *"Tham Vũ đồng hành bất phát thiếu niên nhân"* — Trẻ không phát, phải đợi tuổi.
+
+> **Trình Minh Đức:** *"Vũ Tham Sửu Mùi Hóa Quyền = 'Vua Đất'. Người này PHẢI mua đất, không mua chung cư. Đất đai là language bẩm sinh của Vũ Tham."*
+
+### 3. TẬT ÁCH (Tỵ) — TỬ SÁT (M/V) + LINH TINH (Đ) + VĂN XƯƠNG (Đ) + TUẦN — TUYỆT
+
+**Ngũ Hành:** Tỵ (Hỏa) sinh Thổ (Mệnh) = Ách SINH cho Mệnh. Tràng Sinh = **TUYỆT** → năng lượng Thổ cạn.
+
+**NGHỊCH LÝ ÁCH:** Tràng Sinh TUYỆT (cạn kiệt) NHƯNG có **Tử Vi Miếu + Thất Sát Vượng** = 2 sao CỰC MẠNH. Đây là "người chết ở chiến trường nhưng có khiên THẦN bảo vệ" — sức khỏe BẨM SINH yếu nhưng được bảo vệ BỞI sao mạnh.
+
+**Luận Deep:**
+- **Tử Vi** tại Ách = bệnh "vua" — tim mạch, não, xương sống. Cao cấp nhưng hay lo.
+- **Thất Sát** tại Ách = sức đề kháng CỰC MẠNH. Bé ít ốm vặt, nhưng khi ốm = ốm nặng, rồi tự khỏi.
+- **Linh Tinh Đắc** = bệnh cấp tính ĐẾN BẤT NGỜ, đi cũng BẤT NGỜ. Sốt cao rồi hạ nhanh.
+- **Tuần** = bảo vệ ngầm. Che bớt hung lực Sát → **giảm ~70% tác động hung**.
+- **Văn Xương Đắc** = khéo tay, phản xạ tinh. Hợp phẫu thuật (tay khéo).
+
+> **Phú Cổ:** *"Thất Sát triều đẩu, tước lộc vinh xương"* — Sát hướng Tử Vi = dùng được, không phá.
+> *"Tử Vi cư Ách, nhất sinh thiếu bệnh"* — Tử Vi ở Ách = ít bệnh, nhưng bệnh thì to.
+
+**So sánh Long:** Long: Ách = VCD + Thái Tuế (yếu, dễ bệnh vặt). Cà Rốt: Ách = Tử Sát + Tuần (CỰC MẠNH nhưng hiếm ốm). **Con KHỎE hơn cha GẤP BỘI.**
 
 ### 4. PHU THÊ [THÂN] (Thân) — VCD + LỘC TỒN (Đ) — KHÔNG BỊ TRIỆT!
-- **Thân Cư Phu Thê:** Từ 34 tuổi, gia đình nhỏ là trọng tâm.
-- Đắc **Lộc Tồn (Đắc)**, mượn **Cự Nhật (Vượng)** từ Dần chiếu.
-- **Người vợ xuất chúng:** Tài ba (Cự Môn), minh bạch (Thái Dương), tụ tài (Lộc Tồn).
 
-> **Lê Quang Lăng:** *"Lộc Tồn đắc ở Thân = người bạn đời giỏi giữ tiền. Mệnh VCD tiền vận chông chênh, nhưng hậu vận Thân Cư Thê đắc Lộc = CÂN BẰNG HOÀN HẢO. Đây là lá số 'Tiền bần hậu phú' điển hình."*
+**Ngũ Hành:** Thân (Kim) sinh Thủy → Kim hao, nhưng Lộc Tồn (Thổ) sinh Kim = **Lộc nuôi cung**.
+
+**Luận Deep:**
+- **Thân Cư Phu Thê:** Điểm trọng yếu — từ **34 tuổi**, toàn bộ "trọng tâm" cuộc đời chuyển sang gia đình nhỏ. Trước 34t = Mệnh (Tuất) dẫn. Sau 34t = Thân (Thân) dẫn.
+- **Lộc Tồn (Đắc):** Người bạn đời GIỎI QUẢN TÀI. Bé mệnh VCD không giữ được tiền → bạn đời giữ thay.
+- **Mượn Cự Nhật Vượng** từ Dần chiếu: Người vợ/chồng SÁNG DẠ (Nhật) + KHẨU TÀI (Cự) + MINH BẠCH.
+- **KHÔNG BỊ TRIỆT:** Đây là TIN QUAN TRỌNG. Triệt rơi Ngọ-Mùi, không đụng Thân. Hôn nhân KHÔNG BỊ CẮT.
+
+> **Phú Cổ:** *"Lộc Tồn thủ Thê, phối ngẫu hiền tài"* — Lộc Tồn ở Thê = vợ/chồng giỏi giang.
+
+> **Lê Quang Lăng:** *"Lộc Tồn Đắc ở Thân = người bạn đời giỏi giữ tiền. Mệnh VCD tiền vận chông chênh, nhưng hậu vận Thân Cư Thê đắc Lộc = CÂN BẰNG HOÀN HẢO. Đây là lá số 'Tiền bần hậu phú' điển hình."*
+
+---
+
+### 📊 BẢNG ĐIỂM TỔNG HỢP 12 CUNG
+
+| # | Cung | Chi | Chính tinh | Điểm /10 | Ghi chú |
+|:---:|---|---|---|:---:|---|
+| 1 | **Mệnh** | Tuất | VCD + Hình(H) + Hồng Loan | **6** | Yếu bề ngoài, mạnh chiếu |
+| 2 | Phụ Mẫu | Hợi | Phủ (Đ) | **8** | Két sắt bảo vệ |
+| 3 | **Phúc Đức** | Tý | Đồng Âm (V) + Khoa Kỵ | **9** | ĐẾ VƯỢNG + kho phúc |
+| 4 | **Điền Trạch** | Sửu | Vũ Tham (M) + Quyền | **9** | Pháo đài BĐS |
+| 5 | **Quan Lộc** | Dần | Cự Nhật (V) + Lộc Mã Khôi | **10** | CUNG ĐẸP NHẤT |
+| 6 | Nô Bộc | Mão | Tướng (H) | **3** | Bạn bè yếu |
+| 7 | Thiên Di | Thìn | Cơ Lương (M) + Tuần Kiếp | **7** | Trí tuệ nhưng bị chặn |
+| 8 | **Tật Ách** | Tỵ | Tử Sát (M/V) + Tuần | **8** | Sức khỏe cực mạnh |
+| 9 | Tài Bạch | Ngọ | VCD + Nhị Không | **4** | Thủng đáy tiền mặt |
+| 10 | Tử Tức | Mùi | VCD + Triệt + Hỏa(H) | **3** | Con muộn/khó |
+| 11 | **Phu Thê** | Thân | VCD + Lộc Tồn (Đ) | **8** | Bạn đời giỏi |
+| 12 | Huynh Đệ | Dậu | Liêm Phá (H) + Kình (H) | **2** | Chiến trường |
+
+> **Trung bình: 6.4/10** — Phân bố PHÂN CỰC: 4 cung 8-10 (Quan/Phúc/Điền/Ách) vs 3 cung 2-4 (Huynh/Nô/Tử). Chiến lược: **ĐẨY cung mạnh, BOW cung yếu**. Không cố sửa cung yếu — tập trung vào thế mạnh.
 
 ---
 
