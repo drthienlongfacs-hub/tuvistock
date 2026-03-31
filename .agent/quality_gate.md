@@ -85,7 +85,7 @@
 |:---:|---|:---:|---|
 | F1 | Markdown hợp lệ | ✅ | Bảng, heading, blockquote đúng cú pháp |
 | F2 | Phân phần rõ ràng | ✅ | PHẦN I → PHẦN X, không trộn lẫn |
-| F3 | Không duplicate | ✅ | Không có section trùng lặp |
+| F3 | Không duplicate | ✅ | Không có section trùng lặp — **verify bằng `injection_guard.verify_no_duplicates()`** (RCA-040) |
 | F4 | Emoji nhất quán | 🟡 | Sử dụng emoji có hệ thống (⭐⚠️⛔🟡) |
 | F5 | Dung lượng hợp lý | ✅ | ≥ 1500 dòng cho bài toàn diện |
 

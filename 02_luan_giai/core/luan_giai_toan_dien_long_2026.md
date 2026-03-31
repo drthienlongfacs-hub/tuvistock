@@ -2493,6 +2493,11 @@ Vũ Khúc Hóa Kỵ            Đắc tại Sửu             → KHÓA KHO, che
 
 ### PHẦN VIII-B: LƯU NIÊN 2026 (BÍNH NGỌ) — LUẬN GIẢI CHUYÊN SÂU 12 THÁNG
 
+> ⚠️ **FILE ĐÃ TÁCH:** Deep dive 12 tháng chuyên sâu đã được tách thành file riêng:
+> **→ [`luan_giai_12_thang_2026.md`](./luan_giai_12_thang_2026.md)** (~850 dòng, v6.0 HARVEST Deep Dive)
+> Bao gồm: Khí Học GiaiThan 3 Tầng × 5-chiều × Phi Tinh × Quý Nhân × Giải pháp Liễu Phàm × CK/Macro cho mỗi tháng.
+> Nội dung dưới đây giữ lại bản tóm tắt gốc. Xem file mới cho phân tích toàn diện.
+
 > **Phương pháp 3 Màng Lọc** (from `SKILL.md` Section XII): Bản Cung & Ngũ Hành → Trọng Số 5 Chiều → Lưu Niên Tứ Hóa & Phi Tinh
 > **Perplexity verified 13/03/2026:** Tứ Hóa Bính ✅, Nạp Âm Thiên Hà Thủy ✅, Kinh Dịch quẻ Hỏa Phong Đỉnh ✅
 

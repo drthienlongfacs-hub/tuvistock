@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "catalog_name": "TuViStock CK QA/QC Benchmark Catalog",
+  "updated_at": "2026-03-29",
+  "benchmarks": [
+    {
+      "benchmark_id": "CAL-01",
+      "domain": "baonghean.vn",
+      "data_class": "calendar_anchor",
+      "tier": "B1_primary_operational",
+      "usage": "Neo ngay am-duong de khoa scope audit",
+      "acceptance_rule": "Duoc dung de khoa ngay doi chieu, khong dung de ket luan CK"
+    },
+    {
+      "benchmark_id": "MKT-01",
+      "domain": "vndirect.com.vn",
+      "data_class": "broad_market_index",
+      "tier": "B1_primary_operational",
+      "usage": "Daily market recap cho VN-Index/VN30 va market breadth",
+      "acceptance_rule": "Duoc dung cho regime audit neu co ngay va muc dong cua ro rang"
+    },
+    {
+      "benchmark_id": "MKT-02",
+      "domain": "finance.vietstock.vn",
+      "data_class": "single_name_price",
+      "tier": "B1_primary_operational",
+      "usage": "Gia dong cua, P/E, P/B, foreign ownership, KLGD",
+      "acceptance_rule": "Gia co phieu VN phai uu tien nguon nay hoac source exchange-equivalent"
+    },
+    {
+      "benchmark_id": "CORP-01",
+      "domain": "shb.com.vn",
+      "data_class": "corporate_action_filing",
+      "tier": "B1_primary_operational",
+      "usage": "Nghi quyet, rights issue, placement, ESOP",
+      "acceptance_rule": "Corporate action chi duoc gan catalyst T1 neu co filing/DN/VSD"
+    },
+    {
+      "benchmark_id": "CORP-02",
+      "domain": "vsd.vn",
+      "data_class": "record_date_corporate_action",
+      "tier": "B1_primary_operational",
+      "usage": "Ngay chot quyen, AGM, event calendar",
+      "acceptance_rule": "Uu tien cao cho moc event xay ra tren thi truong"
+    },
+    {
+      "benchmark_id": "MACRO-01",
+      "domain": "sbv.gov.vn",
+      "data_class": "macro_policy",
+      "tier": "B1_primary_operational",
+      "usage": "OMO, lai suat, thong diep dieu hanh",
+      "acceptance_rule": "Macro policy uu tien source nha nuoc/official release"
+    },
+    {
+      "benchmark_id": "MACRO-02",
+      "domain": "gso.gov.vn",
+      "data_class": "macro_statistics",
+      "tier": "B1_primary_operational",
+      "usage": "GDP, CPI, san xuat, retail sales",
+      "acceptance_rule": "Macro statistic phai uu tien co quan thong ke nha nuoc"
+    },
+    {
+      "benchmark_id": "AUX-01",
+      "domain": "vir.com.vn",
+      "data_class": "secondary_context",
+      "tier": "B2_secondary_context",
+      "usage": "Ngu canh FDI, tong hop context doanh nghiep/nganh",
+      "acceptance_rule": "Khong duoc dung mot minh de xac lap gia/record date"
+    },
+    {
+      "benchmark_id": "AUX-02",
+      "domain": "vietnamnews.vn",
+      "data_class": "secondary_context",
+      "tier": "B2_secondary_context",
+      "usage": "Tong hop KQKD, doanh nghiep, policy context",
+      "acceptance_rule": "Can doi chieu voi filing/terminal neu dung cho catalyst"
+    },
+    {
+      "benchmark_id": "AUX-03",
+      "domain": "marketscreener.com",
+      "data_class": "secondary_context",
+      "tier": "B2_secondary_context",
+      "usage": "Event calendar va tong hop doanh nghiep quoc te",
+      "acceptance_rule": "Chi dung bo tro, khong phai benchmark gia CK VN"
+    }
+  ]
+}

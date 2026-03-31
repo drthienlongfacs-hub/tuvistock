@@ -52,7 +52,7 @@ Output: bảng 12 tháng × catalyst × nguyệt hạn
 MỖI mệnh đề → xếp loại:
 | Đúng | Đúng một phần | Chưa xác thực | Sai |
 
-CHECK 9 anti-patterns:
+CHECK 11 anti-patterns:
 □ AGM 21 ngày (không 10)
 □ Insider 3 ngày GD (không 24h)
 □ Heuristic ≠ rule (❌3,4)
@@ -62,6 +62,8 @@ CHECK 9 anti-patterns:
 □ M7 = ép GIẢM (❌8)
 □ Score = ước tính (❌9)
 □ T3 không "BẮT BUỘC" (rule R-CK2)
+□ ⛔ Giá CÓ dấu ~ (ước tính)? → SỬA (R-CK7, ❌10)
+□ ⛔ Vietstock timestamp > 14:30? → Nếu sáng = INTRADAY (R-CK8, ❌11)
 ```
 
 ### Bước 6: Output
@@ -85,6 +87,8 @@ Ghi file với:
 ## Quality Gate — PASS/FAIL
 - FAIL nếu: bất kỳ mệnh đề T3 nào dùng "BẮT BUỘC/CHẮC CHẮN"
 - FAIL nếu: score không ghi "ước tính" vs "xác thực"
-- FAIL nếu: bất kỳ anti-pattern nào trong 9 lỗi bị vi phạm
+- FAIL nếu: bất kỳ anti-pattern nào trong 11 lỗi bị vi phạm
 - FAIL nếu: không có source link cho con số/mốc
+- ⛔ FAIL nếu: giá cổ phiếu có dấu `~` hoặc không kèm nguồn (R-CK7)
+- ⛔ FAIL nếu: giá từ Vietstock có timestamp < 14:30 mà không ghi "intraday" (R-CK8)
 - PASS: tất cả điều kiện trên đều OK → ghi "✅ QG-CK PASS [ngày]"

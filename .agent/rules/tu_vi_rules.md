@@ -301,6 +301,79 @@ Triệt tại Ngọ (Tài): VCD bị Triệt cắt
 
 ---
 
+## RULE R-CK6: KHÓA NGÀY ÂM-DƯƠNG + TÁCH 3 LỚP MARKET REGIME
+
+**🔔 Trigger:** Mọi lần nối Tử Vi với chứng khoán, đặc biệt khi viết `tháng này`, `giữa tháng`, `tuần 2-3`, `đúng/sai`, `kiểm chứng`
+
+**Áp dụng:**
+- ✅ PHẢI ghi ngày tuyệt đối trước khi luận/audit. Ví dụ: `29/03/2026 = 11/2 ÂL`
+- ✅ PHẢI tách ít nhất 3 lớp:
+  1. `broad market` (VN-Index/VN30)
+  2. `sector/basket` (nhóm bank, steel, retail...)
+  3. `single-name catalyst` (SHB tăng vốn, HPG AGM...)
+- ✅ Sau mỗi giai đoạn đang sống, PHẢI có `reality-check` với data thật để gắn nhãn:
+  - `supported`
+  - `partial`
+  - `contradicted`
+- ✅ Nếu broad market sai nhưng basket đúng, PHẢI nói rõ `sai ở lớp nào`
+- ✅ Confidence của tháng sau PHẢI bị điều chỉnh theo outcome gần nhất
+- ❌ KHÔNG dùng một điểm số/tháng để bao trùm toàn thị trường và từng mã
+- ❌ KHÔNG audit "tháng 2 âm" bằng dữ liệu ngoài phạm vi tháng 2 âm mà không ghi rõ
+- ❌ KHÔNG dùng từ `khớp` nếu chưa có artifact outcome audit
+
+**RCA:** T2 âm 2026 cho thấy broad market điều chỉnh nhẹ, nhưng bank basket có catalyst vẫn outperform. Không tách lớp sẽ dẫn đến kết luận sai hoặc quá thô.
+
+---
+
+## RULE R-CK7: GIÁ CỔ PHIẾU PHẢI TỪ NGUỒN TRỰC TIẾP — CẤM ƯỚC TÍNH ⛔
+
+**🔔 Trigger:** Mọi lần viết giá cổ phiếu, bảng giá, hoặc snapshot thị trường
+
+**Áp dụng:**
+- ✅ Giá PHẢI lấy từ **Vietstock EOD**, **CafeF**, **SSI**, hoặc bài **tổng kết phiên** (Baomoi, nhandan, Vibethings)
+- ✅ Mọi giá PHẢI kèm **nguồn** (tên website + timestamp)
+- ✅ Nếu không verify được → ghi **"N/A (chưa verify)"** thay vì đoán
+- ❌ **TUYỆT ĐỐI KHÔNG** ước tính giá từ % VN-Index rồi áp lên từng mã
+- ❌ **TUYỆT ĐỐI KHÔNG** dùng ký hiệu `~` cho giá (VD: ~15,200 = WRONG)
+- ❌ KHÔNG dùng giá từ conversation context/memory nếu chưa cross-check
+
+**Checklist trước khi ghi giá:**
+```
+□ Giá từ nguồn trực tiếp (Vietstock/CafeF/SSI)?
+□ Có kèm nguồn + timestamp?
+□ Không có dấu ~ (ước tính)?
+□ Cross-check ≥2 nguồn cho giá quan trọng?
+```
+
+**RCA:** ERR-017 (30/03/2026) — v7.0 ước tính giá từ % VN-Index → 6/7 giá sai, 3/7 sai chiều. MWG ghi ~−1.2% (thực −2.59%), TCB ghi ~−1.1% (thực 0%).
+
+---
+
+## RULE R-CK8: INTRADAY CACHE ≠ GIÁ ĐÓNG CỬA — VERIFY TIMESTAMP ⛔
+
+**🔔 Trigger:** Mọi lần lấy dữ liệu từ Vietstock/CafeF/financial pages
+
+**Áp dụng:**
+- ✅ PHẢI kiểm tra **timestamp** trên trang Vietstock trước khi dùng
+- ✅ Timestamp phải **> 14:30** mới đủ tin cậy làm giá đóng cửa
+- ✅ Cross-check với bài **"tổng kết phiên"** từ Baomoi/nhandan/Vibethings/ieem
+- ✅ Nếu timestamp < 14:30 → ghi rõ **"intraday [HH:MM], chưa phải giá đóng cửa"**
+- ❌ **KHÔNG** dùng Vietstock page snippet có timestamp buổi sáng (09:xx, 10:xx) làm giá đóng cửa
+- ❌ **KHÔNG** bỏ qua việc stock có thể hồi phục chiều — VN market biên độ lớn trong ngày
+
+**Quy trình verify giá chính xác:**
+```
+1. Lấy giá từ Vietstock → CHECK timestamp
+2. Nếu timestamp < 14:30 → CẢNH BÁO "intraday"
+3. Search bài "tổng kết phiên" hoặc "kết phiên" ngày đó → cross-check
+4. Nếu 2 nguồn đồng ý → ✅ dùng
+5. Nếu 2 nguồn conflict → ghi cả 2 + flag "⚠️ cần verify thêm"
+```
+
+**RCA:** ERR-018 (30/03/2026) — SHB ghi 15,050 (−2.27%) từ Vietstock cache lúc 09:55 → thực tế SHB **HỒI PHỤC buổi chiều, KẾT PHIÊN TĂNG**, KLGD 85.56M (#1 HOSE). Sai lệch nghiêm trọng.
+
+---
+
 ## RULE R13: RIÊU TẠI MỆNH = PHÁT RA, KHÔNG NHẬN VÀO ⚠️
 
 **🔔 Trigger:** Mọi lần luận Thiên Riêu tại cung Mệnh hoặc An Thân
@@ -350,4 +423,230 @@ Triệt tại Ngọ (Tài): VCD bị Triệt cắt
 
 ---
 
-*Created: 25/02/2026 | Updated: 15/03/2026 | Version: 5.0 — Bổ sung R13 (Riêu direction), R14 (Feedback protocol), R15 (Nguyệt Hạn 3-layer)*
+## RULE R16: ANTI-BIAS WARNING — CẢNH BÁO THIÊN KIẾN ⚠️
+
+**🔔 Trigger:** Mọi lần luận giải cung hoặc viết dự báo
+
+**Áp dụng:**
+- ✅ Mỗi luận giải PHẢI có **confidence level**: `[Cao]` / `[Trung bình]` / `[Thấp]`
+- ✅ Khi mô tả quá generic → FLAG `[Barnum Warning]` (mô tả đúng 80% dân số)
+- ✅ Khi kết luận tuyệt đối → FLAG `[Absolute Claim]` → phải thêm điều kiện
+- ❌ KHÔNG viết "chắc chắn sẽ..." cho bất kỳ dự báo nào (Chaos Theory)
+- ❌ KHÔNG gán mọi sự kiện xấu vào Kỵ mà không evidence cụ thể (Retrofitting)
+
+**Anti-patterns nhận thức:**
+| Bias | Dấu hiệu | Cách phòng |
+|------|-----------|-----------|
+| Barnum Effect | Mô tả mơ hồ, ai cũng thấy đúng | Thêm chi tiết cụ thể ≥ 2 điểm |
+| Confirmation Bias | Chỉ nhớ lần đúng, quên lần sai | Ghi cả ĐÚNG và SAI vào log |
+| Retrofitting | Diễn giải lại sau khi biết kết quả | Viết dự đoán TRƯỚC khi xảy ra |
+
+**Căn cứ:** Nghiên cứu Carlson (1985), Dean & Kelly (1997-2003). Harvest Round 4 — master_menh_ly_harvest.md Phần C.
+
+---
+
+## RULE R17: CROSS-SYSTEM REFERENCE — ĐỐI CHIẾU ĐA HỆ THỐNG
+
+**🔔 Trigger:** Khi luận giải cấp NĂM hoặc Đại Hạn
+
+**Áp dụng:**
+- ✅ KHI có dữ liệu Bát Tự → BỔ SUNG cross-ref Dụng Thần với Hóa Lộc TVĐS
+- ✅ Thập Thần BT phải CONSISTENT với chính tinh TVĐS (theo bảng mapping bat_tu_kinh_dien.md §V)
+- ✅ Nếu BT và TVĐS cho kết luận KHÁC NHAU → ghi rõ cả 2 + phân tích vì sao
+- ❌ KHÔNG đồng nhất các hệ thống (mỗi hệ có epistemological claim riêng)
+- ❌ KHÔNG map 1:1 cứng nhắc — chỉ 4/12 cung có chức năng tương đồng cao
+
+**Bảng mapping nhanh (từ bat_tu_kinh_dien.md):**
+| Bát Tự | TVĐS | Tương đồng |
+|--------|------|:----------:|
+| Thất Sát | Thất Sát | ⭐⭐⭐ |
+| Chính Quan | Tử Vi/Thiên Phủ | ⭐⭐ |
+| Thương Quan | Phá Quân | ⭐⭐ |
+| Thực Thần | Thiên Đồng | ⭐⭐ |
+| Dụng Thần | Hóa Lộc | ⭐⭐ |
+| Kỵ Thần | Hóa Kỵ | ⭐⭐ |
+
+**Căn cứ:** Harvest Round 4 — bat_tu_kinh_dien.md, master_menh_ly_harvest.md Phần D.
+
+---
+
+## RULE R18: ARCHETYPE ≠ EVENT — NGUYÊN TẮC CHAOS THEORY
+
+**🔔 Trigger:** Mọi lần dự báo sự kiện cụ thể
+
+**Áp dụng:**
+- ✅ TVĐS dự đoán **xu hướng** (attractor), KHÔNG dự đoán **sự kiện cụ thể** (trajectory)
+- ✅ Viết: "Xu hướng tháng X: năng lượng [A] → có thể biểu hiện qua [B1, B2, B3]"
+- ✅ Luôn cho ≥ 2 khả năng biểu hiện cho mỗi xu hướng
+- ❌ KHÔNG viết: "Tháng X sẽ xảy ra Y" (tuyên bố sự kiện)
+- ❌ KHÔNG dùng TVĐS để bói toán cặn — TVĐS = bản đồ khí quyển nội tâm
+
+**Nguyên lý:** Hệ xác định (deterministic) nhưng nhạy cảm ban đầu (sensitive dependence) → xu hướng lớn đúng, chi tiết nhỏ phân kỳ.
+
+**Căn cứ:** Chaos Theory (Lorenz), Harvest Round 4 — master_menh_ly_harvest.md Phần D §VI.
+
+---
+
+## RULE R19: HÓA KỴ PHẢI ĐỌC THEO NGỮ CẢNH, KHÔNG CỘNG CƠ HỌC
+
+**🔔 Trigger:** Mọi lần luận Hóa Kỵ, Song Kỵ, Kỵ lặp, hoặc Kỵ đi cùng Khoa/Lộc/Quyền
+
+**Áp dụng:**
+- ✅ PHẢI xét `Kỵ ở đâu`: bản cung, tam hợp, xung chiếu, nhị hợp, giáp, hay chỉ là dư âm gốc
+- ✅ PHẢI xét `Kỵ đi với ai`: Khoa soi sáng, Lộc/Quyền tăng tài nguyên, sát tinh làm ma sát nặng hơn
+- ✅ PHẢI xét `vai trò cung`: Kỵ ở Thân/Tài khác Kỵ ở Thê/Phụ/Điền; không dùng một mẫu kết luận cho mọi cung
+- ✅ PHẢI phân biệt `nghẽn / giữ / lộ vấn đề / thị phi / thanh khoản chậm` với `đại hung`
+- ✅ Khi Kỵ lặp khác cung/chức năng, chỉ được nói là `chủ đề lặp`, không được cộng thô thành "tam kỵ đồng cung"
+- ❌ KHÔNG viết kiểu `có Kỵ => cấm tuyệt đối`, `Kỵ chồng Kỵ => auto tốt`, hoặc `Khoa chế Kỵ = thắng-thua`
+- ❌ KHÔNG biến Hóa Kỵ thành mệnh lệnh đầu tư/hôn nhân nếu chưa cross-check hình học cung và đối trọng sao
+
+**Checklist tối thiểu:**
+1. Kỵ đánh đúng cung nào, trực tiếp hay gián tiếp?
+2. Cung đó mạnh/yếu, có Tuần/Triệt, đắc/hãm, hay `Phản Vi Giai` không?
+3. Có Khoa/Lộc/Quyền hoặc sao trung gian làm dịu/đổi nghĩa không?
+4. Kết luận cuối cùng là `nghẽn`, `siết`, `soi sáng mâu thuẫn`, hay `hung thật`?
+
+---
+
+## RULE BT-1: ĐẠI HẠN TVĐS ↔ ĐẠI VẬN BÁT TỰ — CROSS-CHECK
+
+**🔔 Trigger:** Khi luận Đại Hạn TVĐS
+
+**Áp dụng:**
+- ✅ Nếu có dữ liệu BT → cross-check Đại Vận BT cùng giai đoạn 10 năm
+- ✅ Ghi rõ: "TVĐS: ĐH tại [cung] | BT: ĐV hành [X]"
+- ✅ Nếu 2 hệ thống ĐỀU thuận → confidence tăng → `[Cao]`
+- ✅ Nếu 2 hệ thống NGƯỢC → flag và phân tích thêm → `[Thấp]`
+
+---
+
+## RULE BT-2: DỤNG THẦN ↔ HÓA LỘC — MẬT ĐỘ KIỂM TRA
+
+**🔔 Trigger:** Khi xác định Hóa Lộc trong TVĐS
+
+**Áp dụng:**
+- ✅ Dụng Thần BT phải CÙNG HÀNH với cung/sao mang Hóa Lộc TVĐS
+- ✅ Nếu khác hành → **FLAG**: "⚠️ BT-TVĐS divergence — cần xét kỹ"
+- ❌ KHÔNG tự động bác bỏ TVĐS hoặc BT — chỉ flag để awareness
+
+---
+
+## RULE BT-3: THÔNG QUAN — TÌM CẦU NỐI KHI KỴ MẠNH
+
+**🔔 Trigger:** Khi phát hiện Hóa Kỵ mạnh trong cung quan trọng
+
+**Áp dụng:**
+- ✅ Tìm sao/hành có chức năng "Thông Quan" (cầu nối) theo Trích Thiên Tùy
+- ✅ Thông Quan = hành THỨ BA hòa giải 2 hành XUNG (VD: Mộc nối Kim-Thủy)
+- ✅ Ghi: "Thông Quan: [sao X] tại [cung Y] có thể hòa giải Kỵ tại [cung Z]"
+- ❌ Thông Quan KHÔNG triệt tiêu Kỵ — chỉ GIẢM NHẸ
+
+---
+
+## RULE BT-4: ĐIỀU HẦU × KHÍ SẮC — THÁNG SINH MAPPING
+
+**🔔 Trigger:** Khi luận Nguyệt Hạn hoặc phân tích theo tháng
+
+**Áp dụng:**
+- ✅ Check Điều Hầu Dụng Thần (Cùng Thông Bảo Giám) cho tháng đó
+- ✅ Cross-ref với Khí Sắc Hồng Phi Mô (hong_phi_mo_tuong_dien.md)
+- ✅ Ghi: "Điều Hầu tháng [X]: [Hàn/Noãn/Táo/Thấp] → cần [hành bổ]"
+- ✅ Map từ bảng tra bat_tu_kinh_dien.md §III
+
+---
+
+## RULE BT-5: THẬP THẦN ↔ CHÍNH TINH — CONSISTENCY CHECK
+
+**🔔 Trigger:** Khi đánh giá tính cách/bản thể trong luận giải
+
+**Áp dụng:**
+- ✅ Khi TVĐS nói "Thất Sát mạnh" → BT cũng phải thấy Thất Sát hoặc Thiên Ấn vượng
+- ✅ Bảng mapping: bat_tu_kinh_dien.md §IV (Thập Thần ↔ 14 Chính Tinh)
+- ✅ Inconsistency → "⚠️ BT-TVĐS character divergence"
+
+---
+
+## RULE BT-6: NẠP ÂM — BỔ SUNG TẦNG GIA TỘC/TỔ TIÊN
+
+**🔔 Trigger:** Khi luận giải cung Phụ Mẫu hoặc Phúc Đức
+
+**Áp dụng:**
+- ✅ Tra Nạp Âm năm sinh (Tam Mệnh Thông Hội) → bổ sung insight "gốc gia tộc"
+- ✅ Ghi: "Nạp Âm: [tên], ý nghĩa: [mô tả ngắn]"
+- ✅ Nạp Âm bổ sung cho TVĐS (TVĐS thiếu tầng ancestral)
+- ❌ KHÔNG dùng Nạp Âm thay thế chính tinh — chỉ BỔ SUNG
+
+---
+
+## RULE R-INJ1: IDEMPOTENT INJECTION — CHỐNG TRÙNG LẶP (RCA-040)
+
+**🔔 Trigger:** Khi chạy bất kỳ injection script nào vào file luận giải (inject_*.py, upgrade_*.py)
+
+**Bối cảnh RCA-040 (29/03/2026):** Injection scripts append-only → 4× duplication per month, file 6501→2628 dòng sau dedup. 81% nội dung bị trùng.
+
+**Áp dụng:**
+1. ✅ **TRƯỚC KHI INJECT:** Check fingerprint nội dung — nếu block đã tồn tại → SKIP, không append
+2. ✅ **Mỗi block phải có unique anchor:** VD `<!-- DEEP_DIVE_T1_v1 -->` để detect duplicate
+3. ✅ **Mỗi injection script PHẢI import `injection_guard.py`** và gọi `is_already_injected(content, anchor)` trước khi chèn
+4. ✅ **Sau inject:** Chạy `dedup_luan_giai.py` để verify 0 duplicate blocks
+5. ❌ **KHÔNG BAO GIỜ** dùng pattern append-only (tìm section → chèn cuối) mà không check existing
+6. ❌ **KHÔNG chạy inject script >1 lần** trên cùng file mà không verify dedup trước
+
+**Code pattern BẮT BUỘC:**
+```python
+from injection_guard import is_already_injected
+
+anchor = f"<!-- DEEP_DIVE_T{month}_v1 -->"
+if is_already_injected(content, anchor):
+    print(f"⏭️ T{month}: already injected, skipping")
+    continue
+# ... inject content with anchor ...
+```
+
+**Lý do:** RCA-040 (29/03/2026) — 3,873 dòng trùng lặp xóa bỏ. Script `dedup_luan_giai.py` là safety net.
+
+---
+
+## RULE R-BT1: BACKTEST CALIBRATION — 6 NGUYÊN TẮC TỪ THỰC TẾ (Backtest T2/2026)
+
+**🔔 Trigger:** Mọi lần scoring Nguyệt Hạn, dự đoán CK, hoặc đánh giá cung
+
+**Bối cảnh:** Reality-check T2 ÂL 2026 cho thấy broad market yếu nhưng basket có catalyst vẫn outperform. Xem `05_ck_analysis/analysis/market_reality_check_2026.md`.
+
+**6 nguyên tắc BẮT BUỘC:**
+
+### P-1: TÁCH RÕ SCORE CK vs SCORE ĐỜI SỐNG
+- ❌ Score 8/10 cho tháng = reader hiểu CK cũng 8/10 → SAI
+- ✅ Mỗi tháng PHẢI có 2 score: **Score Đời sống** (9-chiều gốc) + **Score CK** (Tài/Di/Phi/Macro)
+
+### P-2: HÓA LỘC ≠ GIÁ TĂNG
+- ❌ "Hóa Lộc Vượng" → chart xanh
+- ✅ Hóa Lộc = **dòng chảy nguồn lực** (thông tin, cơ hội, giới thiệu), KHÔNG phải P&L
+
+### P-3: SONG KỴ MAP SANG SELLING PRESSURE
+- ❌ Song Kỵ chỉ luận hôn nhân
+- ✅ Song Kỵ nếu chiếu trục Tài-Quan → **có thể = institutional/foreign selling**. Cross-check foreign flow
+
+### P-4: TỨ MỘ (Thìn/Tuất/Sửu/Mùi) + TRÀNG SINH YẾU → CK SIDEWAY/GIẢM
+- Tứ Mộ = "chôn cất/tàng trữ". Khi NH vào Tứ Mộ + Tràng Sinh ≤4 → CK likely không tăng
+
+### P-5: FOREIGN FLOW = "VÉ THỰC TẾ" VERIFY PHI TINH
+- Phi Tinh = NỘI LỰC. Ngoại lực phải check foreign net buy/sell để verify
+
+### ⭐ P-6: SCORING ĐA KHUNG 8 NHÂN TỐ — KHÔNG PHIẾN DIỆN (Quan trọng nhất!)
+- **QUY LUẬT:** `Final_Score = Σ(weight_i × score_i)` cho 8 khung:
+- ① 9-Chiều Engine (25%) — NPL score
+- ② Mệnh Foundation Phanh↔Ga (20%) — Phủ/Tham/Kỵ phản ứng với cung NH?
+- ③ Tứ Hóa Phi Tinh (15%) — Phi Tinh có đánh vào NH không?
+- ④ Tuần-Triệt (10%) — NH có bị phong tỏa?
+- ⑤ Hình Học Thiên Bàn (10%) — Tam hợp/xung/giáp mạnh hay yếu?
+- ⑥ Tràng Sinh (5%) — Governor nhẹ, KHÔNG override toàn bộ
+- ⑦ Cách Cục kích hoạt (10%) — Có catalyst cách cục nào?
+- ⑧ Macro/CK (5%) — Chỉ cho score CK
+- **KHÔNG BAO GIỜ** dùng 1 khung đơn lẻ quyết score (Bản Cung đẹp ≠ tháng đẹp)
+- **Chứng cứ:** T2 Bản Cung 9/10 nhưng Multi-factor = 4.5 → khớp thực tế ~4/10 ✅
+- **Chi tiết:** `05_ck_analysis/analysis/multi_factor_calibration_v2.md`
+
+---
+
+*Created: 25/02/2026 | Updated: 31/03/2026 | Version: 6.4 — R-CK7 (giá phải từ nguồn trực tiếp, ERR-017), R-CK8 (intraday cache ≠ EOD, ERR-018).*

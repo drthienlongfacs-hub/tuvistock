@@ -45,6 +45,8 @@ Skill này sinh ra từ phiên 14/03/2026 khi phát hiện **9 lỗi phân tích
 | ❌4 | "CEO trên Bloomberg = deal gần xong" | Heuristic, không chứng minh được | Chờ filing, không chờ phỏng vấn |
 | ❌5 | "Volume cao = mua thật" | FPT phản ví dụ: volume cao + ngoại BÁN ròng | Volume ≠ direction |
 | ❌6 | "VN30F basis dương = smart money long" | Basis = kỳ vọng ngắn hạn, cần xác nhận thêm | Không dùng basis đơn lẻ |
+| ❌10 | **"Giá ~25,800 (ước từ VN-Index -0.61%)"** | Mỗi mã diễn biến RIÊNG. VN-Index % ≠ giá từng mã | **R-CK7**: Giá PHẢI từ Vietstock/CafeF EOD. KHÔNG ước tính |
+| ❌11 | **"SHB 15,050 (Vietstock 09:55)" dùng làm giá đóng cửa** | 09:55 = INTRADAY sáng, SHB hồi phục chiều → kết phiên TĂNG | **R-CK8**: Timestamp > 14:30 mới dùng. Cross-check bài kết phiên |
 | ❌7 | "Giá phát hành = floor đảm bảo" | DN có ĐỘNG CƠ nhưng ≠ SÀN ĐẢM BẢO | "Động cơ" ≠ "đảm bảo" |
 | ❌8 | "M7 margin = ép tăng" | M7 = forced SELLING = ép GIẢM | **SAI LOGIC** — margin call = bán |
 | ❌9 | "SHB 92/100 đã xác thực" | Score = ước tính, vượt data | Ghi rõ "ước tính" vs "xác thực" |
@@ -58,11 +60,13 @@ Skill này sinh ra từ phiên 14/03/2026 khi phát hiện **9 lỗi phân tích
 □ 2. Mọi mệnh đề xếp loại 4 cột? (Đúng / Đúng một phần / Chưa xác thực / Sai)
 □ 3. T3 narrative có dùng "BẮT BUỘC/CHẮC CHẮN" không? → Nếu có = SỬA
 □ 4. Score/điểm ghi "ước tính" hay "xác thực"?
-□ 5. Check 9 anti-patterns?
+□ 5. Check 11 anti-patterns (❌1-❌11)?
 □ 6. Tách rõ T1 vs T2 vs T3?
 □ 7. Giao thoa lá số ghi "conditional" nếu catalyst chưa confirm?
 □ 8. Version + ngày + đính chính rõ?
 □ 9. Backup → 05_ck_analysis/?
+□ 10. ⛔ GIÁ CÓ DẤU ~ (ước tính)? → SỬA ngay hoặc ghi "N/A" (R-CK7)
+□ 11. ⛔ GIÁ TỪ VIETSTOCK CÓ TIMESTAMP > 14:30? → Nếu < 14:30 = INTRADAY, cần cross-check (R-CK8)
 ```
 
 ---
@@ -93,7 +97,7 @@ Skill này sinh ra từ phiên 14/03/2026 khi phát hiện **9 lỗi phân tích
 |---|---|
 | `05_ck_analysis/sot/` | Source of Truth filings đã verify |
 | `05_ck_analysis/analysis/forced_catalyst_v4.md` | Framework v4 chính |
-| `05_ck_analysis/analysis/error_registry.md` | 9 lỗi + anti-patterns |
+| `05_ck_analysis/analysis/error_registry.md` | 18 lỗi + anti-patterns (ERR-001→018) |
 | `.agent/workflows/ck-tuvi-forecast.md` | SOP 7 bước |
-| `.agent/rules/tu_vi_rules.md` | Rules R-CK1→R-CK5 |
+| `.agent/rules/tu_vi_rules.md` | Rules R-CK1→R-CK8 (v6.4) |
 | `02_luan_giai/luan_giai_toan_dien_long_2026.md` → B.7 | Bản thẩm định pháp y |
