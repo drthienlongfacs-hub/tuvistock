@@ -1,0 +1,278 @@
+{
+  "ssl_version": "1.0",
+  "generated_at": "2026-06-13T12:26:14.421899+00:00",
+  "generator": "generate_ssl_sidecars.py v1.0",
+  "source": "SKILL.md",
+  "source_hash": "b4dc56414ba396b9",
+  "scheduling_layer": {
+    "skill_id": "tu-vi-luan-giai",
+    "intent": "Luận giải tử vi chuyên nghiệp, cách cục, đại vận, lưu niên bằng thuật toán thực chứng từ Mệnh Lý Thiên Cơ",
+    "inputs": [
+      {
+        "name": "chart_data",
+        "type": "text",
+        "required": "true"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "luan_giai_report",
+        "type": "markdown"
+      }
+    ],
+    "triggers": [
+      "luận giải",
+      "tử vi",
+      "tinh bàn",
+      "cách cục",
+      "đại vận",
+      "lưu niên",
+      "phân tích lá số"
+    ],
+    "dependencies": [],
+    "complexity_level": "COMPLEX",
+    "risk_level": "LOW",
+    "user_invocable": "true"
+  },
+  "structural_layer": {
+    "scenes": [
+      {
+        "scene_id": "scene_01",
+        "scene_type": "acquisition",
+        "description": "Data First, Interpret Later",
+        "source_ref": "Line: ### 1. Data First, Interpret Later",
+        "next_scenes": [
+          "scene_02"
+        ]
+      },
+      {
+        "scene_id": "scene_02",
+        "scene_type": "action",
+        "description": "Cấu trúc 6 chiều PHẢI LUÔN xét",
+        "source_ref": "Line: ### 2. Cấu trúc 6 chiều PHẢI LUÔN xét",
+        "next_scenes": [
+          "scene_03"
+        ]
+      },
+      {
+        "scene_id": "scene_03",
+        "scene_type": "acquisition",
+        "description": "Trích dẫn bắt buộc",
+        "source_ref": "Line: ### 3. Trích dẫn bắt buộc",
+        "next_scenes": [
+          "scene_04"
+        ]
+      },
+      {
+        "scene_id": "scene_04",
+        "scene_type": "action",
+        "description": "DATA KIỂM KÊ",
+        "source_ref": "Line: ## 1. DATA KIỂM KÊ",
+        "next_scenes": [
+          "scene_05"
+        ]
+      },
+      {
+        "scene_id": "scene_05",
+        "scene_type": "action",
+        "description": "6 CHIỀU TƯƠNG TÁC",
+        "source_ref": "Line: ## 2. 6 CHIỀU TƯƠNG TÁC",
+        "next_scenes": [
+          "scene_06"
+        ]
+      },
+      {
+        "scene_id": "scene_06",
+        "scene_type": "action",
+        "description": "CÁCH CỤC NHẬN DIỆN",
+        "source_ref": "Line: ## 3. CÁCH CỤC NHẬN DIỆN",
+        "next_scenes": [
+          "scene_07"
+        ]
+      },
+      {
+        "scene_id": "scene_07",
+        "scene_type": "reasoning",
+        "description": "TỔNG HỢP CÁT/HUNG",
+        "source_ref": "Line: ## 4. TỔNG HỢP CÁT/HUNG",
+        "next_scenes": [
+          "scene_08"
+        ]
+      },
+      {
+        "scene_id": "scene_08",
+        "scene_type": "action",
+        "description": "TINH BÀN ĐẠI VẬN",
+        "source_ref": "Line: ### 1. TINH BÀN ĐẠI VẬN",
+        "next_scenes": [
+          "scene_09"
+        ]
+      },
+      {
+        "scene_id": "scene_09",
+        "scene_type": "action",
+        "description": "NGŨ HÀNH ĐẠI VẬN vs BẢN MỆNH",
+        "source_ref": "Line: ### 2. NGŨ HÀNH ĐẠI VẬN vs BẢN MỆNH",
+        "next_scenes": [
+          "scene_10"
+        ]
+      },
+      {
+        "scene_id": "scene_10",
+        "scene_type": "action",
+        "description": "TRIỆT KHÔNG ĐỘNG LỰC HỌC",
+        "source_ref": "Line: ### 3. TRIỆT KHÔNG ĐỘNG LỰC HỌC",
+        "next_scenes": [
+          "scene_11"
+        ]
+      },
+      {
+        "scene_id": "scene_11",
+        "scene_type": "action",
+        "description": "SO SÁNH VỚI ĐẠI VẬN TRƯỚC",
+        "source_ref": "Line: ### 4. SO SÁNH VỚI ĐẠI VẬN TRƯỚC",
+        "next_scenes": [
+          "scene_12"
+        ]
+      },
+      {
+        "scene_id": "scene_12",
+        "scene_type": "action",
+        "description": "TỨ HÓA LƯU NIÊN [Can] TRONG ĐV",
+        "source_ref": "Line: ### 5. TỨ HÓA LƯU NIÊN [Can] TRONG ĐV",
+        "next_scenes": [
+          "scene_13"
+        ]
+      },
+      {
+        "scene_id": "scene_13",
+        "scene_type": "action",
+        "description": "CHIẾN LƯỢC ĐẠI VẬN",
+        "source_ref": "Line: ### 6. CHIẾN LƯỢC ĐẠI VẬN",
+        "next_scenes": [
+          "scene_14"
+        ]
+      },
+      {
+        "scene_id": "scene_14",
+        "scene_type": "action",
+        "description": "Phân biệt Archetype (Cách cục/Vị thế) với Event (Sự kiện thực tế)",
+        "source_ref": "Line: ### 1. Phân biệt Archetype (Cách cục/Vị thế) với Event (Sự kiện thực tế)",
+        "next_scenes": [
+          "scene_15"
+        ]
+      },
+      {
+        "scene_id": "scene_15",
+        "scene_type": "action",
+        "description": "Cảnh báo thiên kiến nhận thức (Anti-Bias Warning)",
+        "source_ref": "Line: ### 2. Cảnh báo thiên kiến nhận thức (Anti-Bias Warning)",
+        "next_scenes": [
+          "scene_16"
+        ]
+      },
+      {
+        "scene_id": "scene_16",
+        "scene_type": "action",
+        "description": "Phương pháp Scoring đa nhân tố (Multi-factor Calibration)",
+        "source_ref": "Line: ### 1. Phương pháp Scoring đa nhân tố (Multi-factor Calibration)",
+        "next_scenes": [
+          "scene_17"
+        ]
+      },
+      {
+        "scene_id": "scene_17",
+        "scene_type": "action",
+        "description": "Công thức Multiplicative (NPL Power Function)",
+        "source_ref": "Line: ### 2. Công thức Multiplicative (NPL Power Function)",
+        "next_scenes": [
+          "scene_18"
+        ]
+      },
+      {
+        "scene_id": "scene_18",
+        "scene_type": "action",
+        "description": "Quy tắc Đối chiếu Bát Tự ↔ TVĐS (Cross-System Consistency)",
+        "source_ref": "Line: ### 1. Quy tắc Đối chiếu Bát Tự ↔ TVĐS (Cross-System Consistency)",
+        "next_scenes": [
+          "scene_19"
+        ]
+      },
+      {
+        "scene_id": "scene_19",
+        "scene_type": "reasoning",
+        "description": "Quy trình khai thác dữ liệu thực tế (Real Data Pipeline)",
+        "source_ref": "Line: ### 1. Quy trình khai thác dữ liệu thực tế (Real Data Pipeline)",
+        "next_scenes": [
+          "scene_20"
+        ]
+      },
+      {
+        "scene_id": "scene_20",
+        "scene_type": "reasoning",
+        "description": "Phân tích giao thoa 3 lớp (Market - Sector - Stock)",
+        "source_ref": "Line: ### 2. Phân tích giao thoa 3 lớp (Market - Sector - Stock)",
+        "next_scenes": []
+      }
+    ]
+  },
+  "logical_layer": {
+    "actions": [
+      {
+        "scene_id": "scene_01",
+        "act_type": "READ",
+        "resource_scope": "NETWORK",
+        "description": "Uses read_url_content",
+        "evidence": "Tool 'read_url_content' detected in skill content"
+      },
+      {
+        "scene_id": "scene_02",
+        "act_type": "CALL_TOOL",
+        "resource_scope": "PROCESS",
+        "description": "Uses run_command",
+        "evidence": "Tool 'run_command' detected in skill content"
+      }
+    ]
+  },
+  "risk_profile": {
+    "overall_level": "LOW",
+    "dimensions": {
+      "data_exfiltration": false,
+      "credential_access": false,
+      "unauthorized_actions": false,
+      "resource_exhaustion": false,
+      "system_modification": false,
+      "privilege_escalation": false
+    },
+    "resource_scopes_detected": [
+      "NETWORK",
+      "PROCESS"
+    ],
+    "action_types_detected": [
+      "CALL_TOOL",
+      "READ"
+    ]
+  },
+  "metadata": {
+    "tools_used": [
+      "read_url_content",
+      "run_command"
+    ],
+    "resources_accessed": [
+      "CODEBASE",
+      "LOCAL_FS",
+      "MEMORY",
+      "NETWORK",
+      "PROCESS"
+    ],
+    "has_scripts": false,
+    "script_count": 0,
+    "has_references": false,
+    "reference_count": 0,
+    "has_tests": false,
+    "skill_md_lines": 824,
+    "skill_md_bytes": 43775,
+    "has_protected_blocks": false,
+    "has_evolve_block": false
+  }
+}

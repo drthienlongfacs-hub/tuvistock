@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "catalog_name": "TuViStock CK QA/QC Benchmark Catalog",
-  "updated_at": "2026-03-29",
+  "updated_at": "2026-04-02",
+  "rca_reference": "RCA-042 (01/04) + RCA-043 (02/04)",
   "benchmarks": [
     {
       "benchmark_id": "CAL-01",
@@ -9,7 +10,9 @@
       "data_class": "calendar_anchor",
       "tier": "B1_primary_operational",
       "usage": "Neo ngay am-duong de khoa scope audit",
-      "acceptance_rule": "Duoc dung de khoa ngay doi chieu, khong dung de ket luan CK"
+      "acceptance_rule": "Duoc dung de khoa ngay doi chieu, khong dung de ket luan CK",
+      "api_status": "OK",
+      "fetch_method": "read_url_content"
     },
     {
       "benchmark_id": "MKT-01",
@@ -17,7 +20,9 @@
       "data_class": "broad_market_index",
       "tier": "B1_primary_operational",
       "usage": "Daily market recap cho VN-Index/VN30 va market breadth",
-      "acceptance_rule": "Duoc dung cho regime audit neu co ngay va muc dong cua ro rang"
+      "acceptance_rule": "Duoc dung cho regime audit neu co ngay va muc dong cua ro rang",
+      "api_status": "TIMEOUT_RCA043",
+      "fetch_method": "read_url_content (OK) | dchart API (FAIL: timeout)"
     },
     {
       "benchmark_id": "MKT-02",
@@ -25,7 +30,21 @@
       "data_class": "single_name_price",
       "tier": "B1_primary_operational",
       "usage": "Gia dong cua, P/E, P/B, foreign ownership, KLGD",
-      "acceptance_rule": "Gia co phieu VN phai uu tien nguon nay hoac source exchange-equivalent"
+      "acceptance_rule": "Gia co phieu VN phai uu tien nguon nay hoac source exchange-equivalent",
+      "api_status": "OK_READ_URL",
+      "fetch_method": "read_url_content"
+    },
+    {
+      "benchmark_id": "MKT-03",
+      "domain": "cafef.vn",
+      "data_class": "single_name_price",
+      "tier": "B1_primary_operational",
+      "usage": "Trading history EOD, gia dong cua, volume, corporate actions",
+      "acceptance_rule": "CafeF stock page la nguon verify chinh cho gia real-time. RCA-042 + RCA-043",
+      "api_status": "PAGE_OK_API_LAG",
+      "fetch_method": "read_url_content (OK, real-time) | Historical API (FAIL: lag 2 thang)",
+      "fetch_url_pattern": "cafef.vn/du-lieu/hose/{symbol}-{company_name}.chn",
+      "data_location": "OG Description tag -> gia, volume, von hoa"
     },
     {
       "benchmark_id": "CORP-01",
@@ -82,6 +101,49 @@
       "tier": "B2_secondary_context",
       "usage": "Event calendar va tong hop doanh nghiep quoc te",
       "acceptance_rule": "Chi dung bo tro, khong phai benchmark gia CK VN"
+    },
+    {
+      "benchmark_id": "WARN-01",
+      "domain": "vn.investing.com",
+      "data_class": "secondary_context",
+      "tier": "B3_prohibited_for_binding_claim",
+      "usage": "Tham khao broad trend. KHONG dung cho gia binding",
+      "acceptance_rule": "CANH BAO: Data cached/stale, hay tron ngay. RCA-042: sai 3/5 gia",
+      "api_status": "UNRELIABLE"
+    },
+    {
+      "benchmark_id": "WARN-02",
+      "domain": "TCBS API (apipubaws.tcbs.com.vn)",
+      "data_class": "api_endpoint",
+      "tier": "B3_prohibited_for_binding_claim",
+      "usage": "Khong su dung. Endpoint thay doi khong thong bao",
+      "acceptance_rule": "RCA-043: 404 Not Found. KHONG DUNG",
+      "api_status": "DEAD_404"
+    },
+    {
+      "benchmark_id": "WARN-03",
+      "domain": "SSI iBoard API / VNDIRECT dchart API",
+      "data_class": "api_endpoint",
+      "tier": "B3_prohibited_for_binding_claim",
+      "usage": "Khong su dung. Can auth token, timeout >60s",
+      "acceptance_rule": "RCA-043: Timeout. KHONG DUNG cho automated fetching",
+      "api_status": "TIMEOUT"
+    },
+    {
+      "benchmark_id": "WARN-04",
+      "domain": "vnstock Python library",
+      "data_class": "api_library",
+      "tier": "B3_prohibited_for_binding_claim",
+      "usage": "Khong su dung tren macOS local. SSL incompatible",
+      "acceptance_rule": "RCA-043: Hang do LibreSSL 2.8.3. Chi dung tren VPS Linux voi OpenSSL 3.0",
+      "api_status": "HANG_SSL"
     }
-  ]
+  ],
+  "fetch_method_ranking": {
+    "description": "Thu tu uu tien lay so lieu (QT-11 tu tu_vi_rules.md v6.5)",
+    "priority_1": "read_url_content CafeF stock page -> OG tag (gia, vol, von hoa). <3s, real-time",
+    "priority_2": "Browser scraping CafeF -> OHLCV day du. 3-5 min, 50 tool calls",
+    "priority_3": "Perplexity search -> tin tuc + gia. 5-10s, partial data",
+    "priority_4": "API truc tiep -> KHONG DUNG (QT-10)"
+  }
 }

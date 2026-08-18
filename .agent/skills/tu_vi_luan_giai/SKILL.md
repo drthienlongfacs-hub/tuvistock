@@ -1,6 +1,28 @@
 ---
 name: tu-vi-luan-giai
 description: Use when analyzing Tử Vi charts, luận giải cung, cách cục, đại vận, lưu niên. Data-driven methodology with 7 chiều tương tác, Tứ Hóa Phi Tinh, 3 Màng Lọc. Triggers on "luận giải", "tử vi", "tinh bàn", "cách cục", "đại vận", "lưu niên", "phân tích lá số".
+version: "7.0"
+last_updated: "2026-06-13"
+user_invocable: true
+intent: "Luận giải tử vi chuyên nghiệp, cách cục, đại vận, lưu niên bằng thuật toán thực chứng từ Mệnh Lý Thiên Cơ"
+complexity_level: COMPLEX
+risk_level: LOW
+triggers:
+  - "luận giải"
+  - "tử vi"
+  - "tinh bàn"
+  - "cách cục"
+  - "đại vận"
+  - "lưu niên"
+  - "phân tích lá số"
+dependencies: []
+inputs:
+  - name: chart_data
+    type: text
+    required: true
+outputs:
+  - name: luan_giai_report
+    type: markdown
 ---
 
 # SKILL: TỬ VI LUẬN GIẢI CHUYÊN NGHIỆP
@@ -305,58 +327,43 @@ BỊ CUNG TIẾT → HUNG nhưng BỊ HÚT CẠN (VD: Tướng Thủy ở Mão M
 
 ---
 
-## X. TỨ HÓA PHI TINH — CHUỖI NHÂN QUẢ
+## X. TỨ HÓA PHI TINH — CHUỖI NHÂN QUẢ & TƯƠNG TÁC LÊ QUANG LĂNG
 
-> **Nguyên tắc:** Tứ Hóa = 4 biến số thời gian xoắn vào tinh bàn. Phân tích CHUỖI (chain), không phân tích rời lẻ.
+> **Nguyên tắc:** Tứ Hóa = 4 biến số thời gian xoắn vào tinh bàn. Phân tích CHUỖI (chain) và TƯƠNG TÁC (interactions), không phân tích rời lẻ.
 
-### 10.1 Bảng Tứ Hóa Theo Can
+### 10.1 Bảng Tứ Hóa Theo Can & Đặc Tính Sao
+- **Can Giáp:** Liêm Trinh(Lộc) | Phá Quân(Quyền) | Vũ Khúc(Khoa) | Thái Dương(Kỵ)
+- **Can Ất:** Thiên Cơ(Lộc) | Thiên Lương(Quyền) | Tử Vi(Khoa) | Thái Âm(Kỵ)
+- **Can Bính:** Thiên Đồng(Lộc) | Thiên Cơ(Quyền) | Văn Xương(Khoa) | Liêm Trinh(Kỵ)
+- **Can Đinh:** Thái Âm(Lộc) | Thiên Đồng(Quyền) | Thiên Cơ(Khoa) | Cự Môn(Kỵ)
+- **Can Mậu:** Tham Lang(Lộc) | Thái Âm(Quyền) | Hữu Bật(Khoa) | Thiên Cơ(Kỵ)
+- **Can Kỷ:** Vũ Khúc(Lộc) | Tham Lang(Quyền) | Thiên Lương(Khoa) | Văn Khúc(Kỵ)
+- **Can Canh:** Thái Dương(Lộc) | Vũ Khúc(Quyền) | Thái Âm(Khoa) | Thiên Đồng(Kỵ)
+- **Can Tân:** Cự Môn(Lộc) | Thái Dương(Quyền) | Văn Khúc(Khoa) | Văn Xương(Kỵ)
+- **Can Nhâm:** Thiên Lương(Lộc) | Tử Vi(Quyền) | Tả Phù(Khoa) | Vũ Khúc(Kỵ)
+- **Can Quý:** Phá Quân(Lộc) | Cự Môn(Quyền) | Thái Âm(Khoa) | Tham Lang(Kỵ)
 
+*Lưu ý (Lê Quang Lăng):* Các chính tinh không bao giờ Hóa Khoa gồm Thái Dương, Thiên Đồng, Liêm Trinh, Thiên Phủ, Tham Lang, Cự Môn, Thiên Tướng, Thất Sát, Phá Quân. Các chính tinh không Hóa Kỵ gồm Tử Vi, Thiên Phủ, Thiên Tướng, Thiên Lương, Thất Sát, Phá Quân. Thiên Phủ, Thiên Tướng, Thất Sát không tham gia Tứ Hóa.
+
+### 10.2 Quy Tắc Va Chạm & Tác Động Tứ Hóa
+Khi các sao Tứ Hóa cùng hội tụ hoặc đụng độ tại bản cung hoặc đối cung:
+1. **Lộc Quyền đụng độ:** Chủ giàu sang phú quý, phát tài nhanh chóng, cát tường, danh lợi song toàn. Nếu hội cùng đào hoa tinh chủ về nhân duyên phức tạp.
+2. **Lộc Khoa đụng độ:** Kiếm tiền nhờ danh tiếng, văn chương nghệ thuật đỉnh cao, được cả danh lẫn lợi.
+3. **Lộc Kỵ đụng độ:** Vận thế thay đổi dữ dội, thăng trầm cực lớn, đặc biệt nghiêm trọng nếu gặp Song Hóa Kỵ.
+4. **Quyền Khoa đụng độ:** Người có kỹ năng chuyên môn cao (kỹ sư, chuyên gia), không cố chấp bảo thủ.
+5. **Quyền Kỵ đụng độ:** Biến cố xảy ra nhanh chóng (đến nhanh đi vội). Tính cách hiếu thắng, cạnh tranh, dễ dùng bạo lực/vũ lực giải quyết.
+6. **Khoa Kỵ đụng độ:** Biến cố diễn ra chậm chạp, kéo dài, dây dưa thiếu quyết đoán. Có thể dùng lời nói để hòa giải nhưng khó triệt để.
+7. **Lộc Quyền Khoa đụng độ:** Ba sao gặp nhau là cực kỳ cát lợi, dù không đồng cung chỉ cần hội chiếu cũng phát huy tối đa sức mạnh.
+8. **Lộc Quyền Kỵ đụng độ / Lộc Khoa Kỵ đụng độ:** Trong tổ hợp này, **Hóa Kỵ đóng vai trò chủ đạo**, gây cản trở và phá hoại dòng chảy của Lộc.
+9. **Quyền Khoa Kỵ đụng độ:** Trong tổ hợp này, **Hóa Quyền đóng vai trò chủ đạo**, tăng tính chủ động và áp chế rủi ro của Hóa Kỵ.
+10. **Song Lộc/Quyền/Khoa/Kỵ:** Gia tăng gấp bội cường độ biến hóa gốc của tinh diệu.
+
+### 10.3 Phân Tích Chuỗi Nhân Quả & Phi Hóa
 ```
-Can Giáp: Liêm(Lộc) Phá(Quyền) Vũ(Khoa)  Dương(Kỵ)
-Can Ất:   Cơ(Lộc)  Lương(Quyền) Tử(Khoa)  Âm(Kỵ)
-Can Bính: Đồng(Lộc) Cơ(Quyền)  Xương(Khoa) Liêm(Kỵ)
-Can Đinh: Âm(Lộc)  Đồng(Quyền) Cơ(Khoa)  Cự(Kỵ)
-Can Mậu:  Tham(Lộc) Âm(Quyền)  Bật(Khoa)  Cơ(Kỵ)
-Can Kỷ:   Vũ(Lộc)  Tham(Quyền) Lương(Khoa) Khúc(Kỵ)
-Can Canh:  Dương(Lộc) Vũ(Quyền) Phủ(Khoa)  Đồng(Kỵ)
-Can Tân:  Cự(Lộc)  Dương(Quyền) Xương(Khoa/Kỵ) [tranh luận]
-Can Nhâm: Lương(Lộc) Tử(Quyền)  Xương/Tả(Khoa) Vũ(Kỵ)
-Can Quý:  Phá(Lộc) Cự(Quyền)  Âm(Khoa)  Tham(Kỵ)
+Bước 1: Lập chuỗi: Lộc (Nhân gốc) → Quyền (Điều kiện thực thi) → Khoa (Giải pháp trí tuệ) → Kỵ (Hệ quả tích lũy).
+Bước 2: Tìm "Tự Kỵ" (Cung Can kích hoạt chính tinh của chính cung đó Hóa Kỵ) → Điểm tự phá hoại nghiêm trọng nhất.
+Bước 3: Phi Hóa Kỵ Đại Vận/Lưu Niên: Can cung vận hạn phi Kỵ vào cung nào = Nơi gánh chịu rủi ro lớn nhất; Can cung phi Lộc vào cung nào = Nguồn lợi chảy về.
 ```
-
-> ⚠️ Lưu ý: Có tranh luận giữa các trường phái. Ghi rõ trường phái sử dụng.
-
-### 10.2 Phân Tích Chuỗi Nhân Quả
-
-```
-Bước 1: Xác định VỊ TRÍ 4 Hóa → cung nào, sao nào
-Bước 2: VẼ CHUỖI theo chiều:
-         Lộc (NHÂN gốc) → Quyền (ĐIỀU KIỆN) → Khoa (TRÍ TUỆ) → Kỵ (HỆ QUẢ PHỤ)
-Bước 3: Xác định VÒNG THUẬN (tăng cường) và VÒNG NGHỊCH (cân bằng)
-Bước 4: Tìm BỘ NGẮT MẠCH (sao/cung nào cắt vòng nghịch)
-```
-
-### 10.3 Tam Hóa Liên Châu — Cách Cục Đặc Biệt
-
-```
-Điều kiện: Lộc-Quyền-Khoa nằm liên tiếp 3 cung kề nhau
-Ý nghĩa:  "Bánh đà phú quý" — vòng lặp tự gia tốc
-Cảnh báo:  Nếu Kỵ đồng cung 1 trong 3 → bánh đà bị phanh gián tiếp
-Phú cổ:   "Tam Hóa liên châu phúc tất trùng lai"
-```
-
-### 10.4 Phi Hóa Kỵ (Phi Tinh Nâng Cao)
-
-```
-Dùng cho: Lưu Niên / Đại Vận phi tinh
-Quy trình:
-  1. Lấy Can của cung Tiểu Hạn (hoặc Đại Vận)
-  2. Tra bảng Tứ Hóa theo Can đó
-  3. Chiếu các Hóa lên 12 cung → tìm điểm Lộc đổ và Kỵ đánh
-  4. Diễn giải: "Lộc rót vào đâu = nguồn lợi; Kỵ đánh vào đâu = rủi ro"
-```
-
-> **Ví dụ (Long 2026):** Tiểu Hạn Mùi mang Can Kỷ → Vũ(Lộc)+Tham(Quyền) đổ vào Sửu (Thân), Khúc(Kỵ) đánh Di → "Phần thịt giấu kín, xương xẩu đẩy ra ngoài"
 
 ---
 
@@ -412,7 +419,7 @@ HIỆN TƯỢNG ĐẶC BIỆT — "Tuần Triệt Tháo Gỡ":
 
 ---
 
-## XII. QUY TRÌNH LUẬN GIẢI LƯU NIÊN — PHƯƠNG PHÁP 3 MÀNG LỌC
+## XII. QUY TRÌNH LUẬN GIẢI LƯU NIÊN & VẬN HẠN — PHƯƠNG PHÁP 3 MÀNG LỌC
 
 > **Nguyên tắc:** Mỗi năm cần xét qua 3 tầng lọc. Không bỏ qua tầng nào.
 
@@ -452,7 +459,15 @@ HIỆN TƯỢNG ĐẶC BIỆT — "Tuần Triệt Tháo Gỡ":
 ✅ Lưu Kình Dương, Lưu Lộc Tồn, Lưu Thiên Mã?
 ```
 
-### 12.3 Ma Trận 12 Cung (Đánh Giá Toàn Cảnh Năm)
+### 12.3 Thuật Toán Luận Lưu Nguyệt, Lưu Nhật, Lưu Thời & Lưu Phân (Lê Quang Lăng)
+1. **Lưu Niên Đẩu Quân (Tháng Giêng):** Quy tắc *"Đếm ngược tháng sinh, đếm thuận giờ sinh"*. Lấy cung Lưu Niên làm mốc 1, đếm ngược chiều kim đồng hồ qua từng cung đến tháng sinh, rồi lấy cung dừng chân đó làm cung Tý, đếm thuận chiều kim đồng hồ qua từng cung đến giờ sinh. Cung cuối cùng là vị trí Đẩu Quân (Tháng Giêng) của năm đó.
+2. **Lưu Nguyệt 12 Cung:** Từ Đẩu Quân đếm thuận chiều kim đồng hồ lần lượt là tháng 2, tháng 3... tháng 12. Can của cung Lưu Nguyệt dùng làm Can kích hoạt Tứ Hóa Lưu Nguyệt.
+3. **Lưu Nhật:** Cung vị của tháng âm lịch hiện hành là ngày mồng một, đếm thuận chiều kim đồng hồ mỗi cung là một ngày tiếp theo. Can của ngày hiện hành (Can Nhật) dùng để kích hoạt Tứ Hóa Lưu Nhật.
+4. **Lưu Thời:** Từ cung vị của Lưu Nhật hiện tại làm giờ Tý, đếm thuận chiều kim đồng hồ lần lượt là giờ Sửu, Dần, Mão... Can của giờ hiện tại dùng để kích hoạt Tứ Hóa Lưu Thời.
+5. **Lưu Phân Vòng Mệnh (Độ chính xác 2 phút):** Cung vị của giờ hiện tại đại diện cho 2 phút đầu tiên của giờ đó. Tiếp tục đếm thuận chiều kim đồng hồ mỗi cung là 2 phút để tìm vị trí Lưu Phân vòng mệnh tại phút hiện hành. Dùng để dự đoán các sự việc vi mô tức thời.
+6. **Xác Định Ý Đồ Hỏi Việc:** Dùng vòng mệnh bản thân làm chuẩn. Nếu người ngoài hỏi, lấy cung Bộc Dịch làm cung Mệnh của họ và lập các cung còn lại. Can Nhật của ngày hỏi phi Hóa Kỵ vào cung nào thì ý đồ hỏi việc tập trung tại cung đó.
+
+### 12.4 Ma Trận 12 Cung (Đánh Giá Toàn Cảnh Năm)
 
 ```markdown
 | # | Cung Vị | Hệ Thống Lưu Niên Giáng Xuống | TV-10 | Hành Động |
@@ -464,47 +479,36 @@ HIỆN TƯỢNG ĐẶC BIỆT — "Tuần Triệt Tháo Gỡ":
 
 ---
 
-## XIII. VÔ CHÍNH DIỆU — QUY TẮC ĐẶC BIỆT
+## XIII. VÔ CHÍNH DIỆU — QUY TẮC ĐẶC BIỆT & THÁI TUẾ NHẬP QUẺ
 
-> **Nguyên tắc:** Cung VCD (Vô Chính Diệu) = cung không có 14 chính tinh tọa thủ. PHẢI xử lý đặc biệt.
+> **Nguyên tắc:** Cung VCD (Vô Chính Diệu) = cung không có 14 chính tinh tọa thủ. PHẢI xử lý đặc biệt theo Lê Quang Lăng.
 
-### 13.1 Quy Tắc Mượn Sao
+### 13.1 Quy Tắc Mượn Sao & Trọng Số
+- VCD tại cung A → Mượn chính tinh từ cung ĐỐI DIỆN (xung chiếu).
+- Ghi rõ: *"VCD — Mượn [tên sao] từ cung [X]"*.
+- **Quy tắc 80%:** Bản cung VCD chiếm 40% nhưng thực tế gần như trống rỗng, do đó cung xung chiếu chiếm 80% sức mạnh tác động lên bản cung.
+- Công thức: `Sức mạnh thực tế VCD ≈ 0.8 × Sức mạnh Xung chiếu`. Nếu đối cung đẹp, VCD đẹp; đối cung xấu, VCD xấu.
 
-```
-VCD tại cung A → Mượn chính tinh từ cung ĐỐI DIỆN (xung chiếu)
-⚠️ Luôn ghi rõ: "VCD — Mượn [tên sao] từ cung [X]"
-```
+### 13.2 Ý Nghĩa Tâm Lý VCD
+- **Mệnh VCD:** Người linh hoạt, thích ứng cao, "tấm gương phản chiếu" môi trường.
+- **Tài VCD:** Tiền bạc trồi sụt thất thường, phụ thuộc mạnh vào xung chiếu.
+- **Quan VCD:** Sự nghiệp đứt đoạn, thích hợp làm việc tự do hoặc phi truyền thống.
+- **Thiên Di VCD:** Ra ngoài trống trải, cần có lực chiếu mạnh từ Mệnh chầu về.
 
-### 13.2 Quy Tắc 80% Xung Chiếu
+### 13.3 VCD + Tuần/Triệt
+- **VCD + Triệt:** Trống rỗng + Cắt đứt -> Phá cách, cuộc đời bấp bênh, thiếu điểm tựa.
+- **VCD + Tuần:** Trống rỗng + Che giấu -> "Bảo vệ sự trống rỗng", giữ được bình an ngầm.
+- **VCD đắc Tuần/Triệt:** Nhận được lực bảo vệ, giúp cung VCD ổn định trở lại. Tuy nhiên, nếu ngộ cả Tuần lẫn Triệt gọi là "Vạn Không", phá vỡ hoàn toàn cấu trúc cung.
 
-```
-Cung VCD:  Tọa thủ (40%) → GẦN NHƯ TRỐNG
-           Xung chiếu (30%) → CHIẾM 80% SỨC MẠNH BẢN CUNG
-
-Công thức: Sức mạnh thực tế VCD ≈ 0.8 × Sức mạnh Xung chiếu
-```
-
-> **Lê Quang Lăng:** *"Cung VCD mượn 80% lực xung chiếu. Nếu xung chiếu đẹp → VCD đẹp. Nếu xung chiếu xấu → VCD xấu."*
-
-### 13.3 Ý Nghĩa Tâm Lý VCD
-
-```
-VCD tại Mệnh   → Người linh hoạt, thích ứng, "tấm gương phản chiếu"
-VCD tại Tài     → Tiền bạc trồi sụt, phụ thuộc xung chiếu
-VCD tại Quan    → Sự nghiệp đứt đoạn, tự do hơn là hệ thống
-VCD tại Thiên Di → Ra ngoài trống trải, cần chiếu về mạnh
-```
-
-### 13.4 VCD + Tuần/Triệt
-
-```
-VCD + Triệt = Trống + Cắt → Cực hung (không nền, không gốc)
-VCD + Tuần  = Trống + Che  → Che cái trống → nghịch lý "bảo vệ sự trống rỗng"
-```
+### 13.4 Phương Phương Thái Tuế Nhập Quẻ (Nhập Quái)
+Dùng để xác định tương tác sâu giữa hai người (đối tác, vợ chồng) trên một lá số:
+1. **Xét Can năm sinh đối phương:** Tra xem Tứ Hóa năm sinh của họ phi vào các cung nào trên lá số của ta (đặc biệt là Hóa Lộc và Hóa Kỵ).
+2. **Xét Chi năm sinh đối phương:** Tìm cung mang Địa Chi đó trên lá số của ta để xem chính tinh, phụ tinh và trạng thái cát hung.
+3. **Đánh giá:** Nếu Can năm sinh đối phương phi Hóa Lộc vào cung Mệnh/Tài/Quan của ta và Chi năm sinh rơi vào cung cát -> Đối phương là quý nhân nâng đỡ. Nếu phi Hóa Kỵ vào Mệnh/Tài/Quan/Phúc và Chi rơi vào cung hung/sát -> Đối phương mang lại rủi ro, nợ nần hoặc cản trở lớn.
 
 ---
 
-## XIV. PHÂN TÍCH MỆNH — THÂN
+## XIV. PHÂN TÍCH MỆNH — THÂN & TỶ TRỌNG CÁT HUNG
 
 > **Nguyên tắc:** Mệnh = Tiền Vận (< 34t). Thân = Hậu Vận (> 34t). Vị trí Thân CƯ cung nào quyết định trọng tâm hậu vận.
 
@@ -519,20 +523,19 @@ VCD + Tuần  = Trống + Che  → Che cái trống → nghịch lý "bảo vệ
 | **Tài Bạch** | Tiền bạc chi phối. Kiếm tiền là mục đích |
 | **Thiên Di** | Ra ngoài. Hậu vận gắn với xã giao, xuất ngoại |
 
-### 14.2 Mệnh-Thân Không Đồng Cung
+### 14.2 Phân Tích Giới Tính & Trọng Tâm Cung
+- **Nam mệnh:** Tập trung phân tích **9 cung**: Mệnh, Thân, Tài Bạch, Quan Lộc, Thiên Di, Phúc Đức, Bộc Dịch, Phu Thê, Huynh Đệ. Trong đó, **6 cung** quan trọng nhất quyết định thành bại: *Mệnh, Thân, Tài Bạch, Quan Lộc, Thiên Di, Phúc Đức*.
+- **Nữ mệnh:** Tập trung phân tích **7 cung**: Mệnh, Thân, Phúc Đức, Phu Thê, Tử Nữ, Phụ Mẫu, Huynh Đệ. Trong đó, **4 cung** quan trọng nhất: *Mệnh, Thân, Phúc Đức, Phu Thê*.
 
-```
-Phân tích 2 pha:
-  TIỀN VẬN (< 34t): Luận theo cung MỆNH → 5 chiều tương tác
-  HẬU VẬN (> 34t): Luận theo cung THÂN → 5 chiều tương tác
-  
-⚠️ Chú ý: Chủ Mệnh ≠ Chủ Thân
-   Chủ Mệnh: Sao chủ cung Mệnh → tính cách gốc
-   Chủ Thân: Sao chủ cung Thân cư → xu hướng hậu vận
-```
+### 14.3 Cơ Chế Luận Cát Hung Một Cung (Lê Quang Lăng)
+Khi đánh giá cát hung của một cung vận hoặc cung bản mệnh, phải xét đủ các góc nhìn:
+- **Bản cung hung:** Bất ổn, nông cạn, biến động tại chỗ.
+- **Đối cung hung:** Giáng đòn cảnh cáo trực diện từ bên ngoài.
+- **Tam phương hung:** Bị bao vây cô lập xung quanh, trở lực khắp nơi.
+- **Giáp cung hung:** Bị hai cung lân cận ức hiếp, áp lực môi trường gần ép vào.
+- **Tứ bề khốn đốn:** Cả tam phương và bản cung đều xấu, cô lập hoàn toàn trong vòng vây rủi ro.
 
-### 14.3 Định Lượng Mệnh-Thân
-
+### 14.4 Định Lượng Mệnh-Thân
 ```
 ☐ Đánh giá ĐỘ VỮNG Mệnh (Baseline Resilience): x/10
 ☐ Đánh giá ĐỘ VỮNG Thân (Baseline Resilience): x/10
@@ -730,7 +733,91 @@ Chính tinh: [x]/8 bộ | Phụ tinh: [x] sao | Cách cục: [x] ([NET])
 
 ---
 
-*Created: 25/02/2026 | Updated: 14/03/2026 | Version: 5.0*
-*v5.0 — Bổ sung Section XVII (Phụ Tinh SOP), XVIII (Quality Gate), XIX (Cách Cục Registry 19), XX (Đại Vận Deep Template)*
+## XXI. BÁO CÁO CÁC RULE CHỐNG SAI & BIASED (Rule R16, R18)
+
+### 1. Phân biệt Archetype (Cách cục/Vị thế) với Event (Sự kiện thực tế)
+- **Chaos Theory (Hiệu ứng cánh bướm):** TVĐS dự đoán **xu hướng** (attractor) và vùng năng lượng, không dự đoán **sự kiện cụ thể** (trajectory).
+- **Quy tắc:**
+  - Luôn đưa ra ít nhất 2 phương án biểu hiện thực tế cho mỗi xu hướng.
+  - Không khẳng định tuyệt đối "ngày X xảy ra sự kiện Y".
+  - Dùng các cụm từ: "có khả năng biểu hiện qua...", "phù hợp cho các hoạt động...", "xu hướng năng lượng chủ đạo...".
+
+### 2. Cảnh báo thiên kiến nhận thức (Anti-Bias Warning)
+- **Barnum Effect:** Tránh viết các mô tả chung chung mơ hồ có thể áp dụng cho bất kỳ ai (ví dụ: "tháng này bạn sẽ gặp một số khó khăn nhưng cuối cùng đều qua khỏi"). Khi đưa ra nhận định, phải kèm ít nhất 2 bằng chứng cụ thể từ sao/ngũ hành.
+- **Confirmation Bias:** Ghi nhận cả các dự đoán đúng và sai để liên tục hiệu chuẩn độ nhạy của tinh bàn.
+- **Retrofitting:** Tránh "gọt chân cho vừa giày" bằng cách diễn giải lại sự kiện đã qua sao cho khớp với các sao xấu (như Hóa Kỵ). Mọi Backtest phải trung thực và ghi nhận sai lệch.
+- **Đánh giá mức độ tự tin (Confidence Levels):**
+  - `[Cao]`: Khi các yếu tố Tam Tài (Thiên, Địa, Nhân) và Bát Tự đồng thuận.
+  - `[Trung bình]`: Khi có sự giằng co giữa cát và hung tinh nhưng có cứu giải.
+  - `[Thấp]`: Khi dữ liệu thiếu nhất quán hoặc có sự mâu thuẫn lớn giữa các hệ thống (Divergence).
+
+---
+
+## XXII. SCORING ĐA KHUNG 8 NHÂN TỐ & PHƯƠNG PHÁP MULTIPLICATIVE (NPL) (Rule R-BT1: P-1, P-6)
+
+### 1. Phương pháp Scoring đa nhân tố (Multi-factor Calibration)
+Để tránh phiến diện (ví dụ: Bản Cung đẹp nhưng tháng vẫn xấu do bị bao vây), điểm số cát hung của một cung hạn được tính theo công thức trọng số của 8 nhân tố:
+- **① Khung 9-Chiều Engine (25%):** Kết quả từ công thức NPL hoặc linear.
+- **② Mệnh Foundation Phanh↔Ga (20%):** Phản ứng của các sao cố định (Phủ, Tham, Kỵ) với cung nhập hạn.
+- **③ Tứ Hóa Phi Tinh (15%):** Sự bắn phá của các phi hóa vào cung hạn.
+- **④ Tuần - Triệt (10%):** Trạng thái phong tỏa của khoảng trống cấu trúc.
+- **⑤ Hình Học Thiên Bản (10%):** Sức mạnh chiếu hội, giáp cung.
+- **⑥ Tràng Sinh (5%):** Trạng thái sinh vượng tử tuyệt của vòng vận hành.
+- **⑦ Cách Cục Kích Hoạt (10%):** Các catalyst cách cục được đánh thức bởi phi tinh.
+- **⑧ Macro / Chứng Khoán (5%):** Bối cảnh thị trường (chỉ áp dụng khi phân tích CK).
+
+### 2. Công thức Multiplicative (NPL Power Function)
+Phát triển từ lý thuyết của Nguyễn Phát Lộc, khi một cung hạn bị một chiều hung nặng tàn phá thì các chiều cát khác cũng bị kéo lùi (tỷ lệ nhân):
+```
+Total = 10 × Π((Score_i / 10) ^ Weight_i)
+```
+- Các điểm số thành phần thấp (ví dụ: Hóa Kỵ xung phá = 1/10) sẽ kéo sụt toàn bộ điểm tổng thể cực mạnh.
+
+---
+
+## XXIII. HƯỚNG DẪN KẾT HỢP BÁT TỰ & THẬP THẦN (Rule R17, BT-1 đến BT-6)
+
+### 1. Quy tắc Đối chiếu Bát Tự ↔ TVĐS (Cross-System Consistency)
+- **Đồng bộ Thập Thần:** Tính cách và cách cục từ Thập Thần Bát Tự phải tương thích với các chính tinh TVĐS:
+  - Thất Sát (BT) ↔ Thất Sát (TVĐS)
+  - Chính Quan (BT) ↔ Tử Vi, Thiên Phủ (TVĐS)
+  - Thương Quan (BT) ↔ Phá Quân (TVĐS)
+  - Thực Thần (BT) ↔ Thiên Đồng (TVĐS)
+- **Dụng Thần vs Hóa Lộc:** Dụng Thần Bát Tự phải có mối liên hệ sinh khắc cát lợi với hành của sao mang Hóa Lộc trong TVĐS. Nếu Dụng Thần khắc Hóa Lộc, phải flag cảnh báo phân kỳ hệ thống.
+- **Điều Hầu (Cùng Thông Bảo Giám):** Xác định nhiệt độ/khí hậu của bản mệnh (Hàn, Noãn, Táo, Thấp) để bổ trợ cho việc đánh giá độ bền bỉ của đương số dưới tác động của Sát tinh.
+
+---
+
+## XXIV. QUY TẮC DỮ LIỆU THỊ TRƯỜNG CHỨNG KHOÁN (Rule R-CK1 đến R-CK8, QT-10 đến QT-13)
+
+### 1. Quy trình khai thác dữ liệu thực tế (Real Data Pipeline)
+- **Tuyệt đối không dùng API VN Stock trực tiếp** (do lỗi kết nối và stale data).
+- **Thứ tự ưu tiên:**
+  1. `read_url_content` CafeF để lấy giá đóng cửa và thông tin giao dịch chính thức.
+  2. Browser Scraping (khi cần OHLCV đầy đủ).
+  3. Perplexity search (khi cần tin tức doanh nghiệp và tổng hợp vĩ mô).
+- **Kiểm chứng Timestamp:** Giá cổ phiếu chỉ được công nhận là giá đóng cửa khi timestamp hiển thị trên nguồn **sau 14:30**. Mọi dữ liệu trước 14:30 phải được gắn nhãn `[Intraday Cache]`.
+
+### 2. Phân tích giao thoa 3 lớp (Market - Sector - Stock)
+Khi dự báo hoặc đối chiếu thực tế (Backtest), phải bóc tách rõ rệt:
+- **Lớp 1 (Broad Market):** VN-Index, VN30.
+- **Lớp 2 (Sector/Basket):** Năng lượng nhóm ngành (Ngân hàng, Bất động sản, Thép...).
+- **Lớp 3 (Single-name Catalyst):** Sự kiện doanh nghiệp cụ thể (Tăng vốn, chia cổ tức, AGM...).
+- *Hóa Lộc chủ về dòng chảy thông tin/nguồn lực, không đồng nghĩa với việc giá cổ phiếu tăng ngay lập tức.*
+- *Song Kỵ chiếu Tài-Quan đại diện cho áp lực bán tháo của khối ngoại hoặc dòng tiền lớn rút ròng.*
+
+---
+
+## XXV. PHƯƠNG PHÁP INJECTION TRÁNH TRÙNG LẶP (Rule R-INJ1)
+
+Để bảo đảm tính toàn vẹn dữ liệu trong quá trình cập nhật hàng loạt các file luận giải:
+- **Quy tắc Idempotent:** Mọi hành động chèn nội dung lý thuyết/phân tích mới vào file cũ phải thông qua kiểm tra trùng lặp dựa trên các Anchor đặc trưng (ví dụ: `<!-- DEEP_DIVE_T1_v1 -->`).
+- **Chương trình kiểm soát:** Phải sử dụng module `injection_guard.py` để phát hiện block tồn tại trước khi chạy script chèn.
+- **Định kỳ rà soát:** Sử dụng `dedup_luan_giai.py` để dọn dẹp các khối trùng lặp, bảo đảm cấu trúc file markdown tối giản và sạch sẽ.
+
+---
+
+*Created: 25/02/2026 | Updated: 13/06/2026 | Version: 7.0*
+*v7.0 — Tích hợp toàn bộ hệ thống 19 quy tắc thực chứng (tu_vi_rules.md) bao gồm: 9-Chiều NPL Scoring, Anti-Bias (Carlson), Bát Tự Cross-Ref, Chứng khoán 3 lớp và Idempotent Injection.*
 *Workflow: `/tu-vi-analysis` | Quality Gate: `.agent/quality_gate.md`*
 

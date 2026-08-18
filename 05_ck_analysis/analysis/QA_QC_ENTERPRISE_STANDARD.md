@@ -104,3 +104,35 @@ python3 /Users/mac/Desktop/TuViStock/02_luan_giai/tools/market_qaqc_validator.py
 - Nếu cần audit tháng đang sống: khóa ngày trước, rồi chạy `market_reality_check.py`
 - Nếu cần publish/report: chạy tiếp `market_qaqc_validator.py`
 - Nếu validator fail: sửa benchmark/scope/source trước, không được nhảy sang narrative
+
+---
+
+## Gate E5: DATA PIPELINE INTEGRITY (RCA-043, 02/04/2026)
+
+> **Mục đích:** Đảm bảo số liệu đầu vào chính xác trước khi phân tích.
+> **RCA:** 5/5 API VN stock fail (CafeF lag, TCBS 404, SSI/VND timeout, vnstock hang).
+
+### Checklist E5 (bắt buộc trước mọi market analysis):
+
+| # | Kiểm tra | Đạt | Không đạt |
+|---|---|---|---|
+| E5.1 | Source nằm trong B1 (cafef.vn, vietstock.vn, vsd.vn)? | ✅ Tiếp tục | ❌ Reject, đổi source |
+| E5.2 | Fetch method = `read_url_content` hoặc Browser? | ✅ Tiếp tục | ⚠️ Cảnh báo nếu dùng API |
+| E5.3 | Date trong data = ngày giao dịch hiện tại ±1? | ✅ Tiếp tục | ❌ Reject data, stale |
+| E5.4 | Cross-check ≥2 sources nếu claim binding? | ✅ Tiếp tục | ⚠️ Ghi rõ "single source" |
+| E5.5 | Ghi timestamp lấy data trong output? | ✅ Tiếp tục | ❌ Thêm timestamp |
+
+### Fetch Method — Thứ tự ưu tiên (QT-11):
+
+```
+1. read_url_content CafeF stock page  →  OG tag (giá, vol, vốn hóa)  ⭐ <3s
+2. Browser scraping CafeF              →  OHLCV đầy đủ             ⏰ 3-5 min
+3. Perplexity search                   →  Tin tức + giá             ⏰ 5-10s
+4. API trực tiếp                       →  KHÔNG DÙNG (QT-10)       ❌
+```
+
+### Reject Conditions:
+
+- API endpoint trả 404 hoặc timeout → **auto-reject**, log vào RCA
+- Data date sai lệch >1 ngày → **auto-reject**, switch source
+- Giá sai lệch >3% giữa 2 sources → **flag**, manual review

@@ -649,4 +649,47 @@ if is_already_injected(content, anchor):
 
 ---
 
-*Created: 25/02/2026 | Updated: 31/03/2026 | Version: 6.4 — R-CK7 (giá phải từ nguồn trực tiếp, ERR-017), R-CK8 (intraday cache ≠ EOD, ERR-018).*
+## ⛔ QUY TẮC VẬN ĐỘNG THỊ TRƯỜNG (QT) — RCA-043 DATA PIPELINE
+
+> **RCA-043 (02/04/2026):** 5/5 API nguồn VN stock đều fail (CafeF lag, TCBS 404, SSI/VND timeout, vnstock hang). Chỉ `read_url_content` hoạt động tin cậy.
+
+### QT-10: KHÔNG DÙNG VN STOCK API TRỰC TIẾP
+- **CafeF Historical API** → data lag 2 tháng (free tier)
+- **TCBS API** → endpoint thay đổi không thông báo (404)
+- **SSI iBoard / VNDIRECT dchart** → cần auth, timeout >60s
+- **vnstock lib** → SSL incompatible (LibreSSL 2.8.3), hang
+- **Kết luận:** Tất cả Vietnamese stock API unreliable cho automated use
+
+### QT-11: THỨ TỰ ƯU TIÊN LẤY SỐ LIỆU
+1. **`read_url_content` CafeF** → OG tag chứa giá real-time, 1 call/mã, <3s ⭐
+2. **Browser scraping** → backup nếu cần OHLCV đầy đủ
+3. **Perplexity search** → backup nếu cần tin tức + giá
+4. ~~API trực tiếp~~ → KHÔNG DÙNG (QT-10)
+
+### QT-12: TIMEOUT VÀ FALLBACK BẮT BUỘC
+- Mọi HTTP request: timeout ≤5s
+- Mọi shell command liên quan API: `timeout 10`
+- Nếu source 1 fail → auto-switch source 2 (QT-11)
+- KHÔNG chạy script Python gọi API VN stock trên máy local (SSL issue)
+
+### QT-13: VALIDATE DATE — CHỐNG DATA STALE
+- Sau khi nhận data: so sánh date trả về vs date yêu cầu
+- Nếu sai lệch >1 ngày giao dịch → **REJECT** data, chuyển source khác
+- Ghi rõ timestamp lấy data trong mọi output: `(CafeF chiều 02/04/2026 13:34)`
+
+### QT TỔNG HỢP 1→9 (tham chiếu nhanh)
+| Rule | Nội dung (tóm tắt) |
+|---|---|
+| QT-1 | VIC = công cụ dịch chuyển index, KHÔNG phải đầu tư |
+| QT-2 | Volume spike + giá phẳng = MM gom hàng |
+| QT-3 | Phân kỳ mã vs index = ý đồ cụ thể MM |
+| QT-4 | Volume giảm + giá tăng = cung kiệt (hấp thụ xong) |
+| QT-5 | Gap up rồi fade = phân phối ở kháng cự |
+| QT-6 | Close/High > 95% = mua thật, < 70% = phân phối |
+| QT-7 | Tin tức = cớ hợp lý hóa, giá/volume là signal |
+| QT-8 | Cụm AGM = markup phase có kế hoạch |
+| QT-9 | Vin bùng → banking pullback = cơ hội mua banking |
+
+---
+
+*Created: 25/02/2026 | Updated: 02/04/2026 | Version: 6.5 — QT-10→13 (RCA-043 data pipeline rules), QT-1→9 (market movement rules 01/04).*

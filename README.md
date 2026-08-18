@@ -1,104 +1,98 @@
-# 📚 Luận Giải Tử Vi Đẩu Số — BS Long 2026
+# TuViStock — Workspace Navigator
+> **Purpose:** Giúp Antigravity agent nhanh chóng tìm đúng file, tránh trùng lặp.
+> **Updated:** 02/04/2026 | v1.0
 
-> **Version:** 5.0 | **Updated:** 14/03/2026
-> **Đương số:** Lê Trọng Thiên Long | **Nhâm Thân 1992** | Dương Nam | Kim Tứ Cục
-
----
-
-## 📁 CẤU TRÚC THƯ MỤC (Tự chứa — Self-contained)
+## 📁 CẤU TRÚC THƯ MỤC
 
 ```
-Luan giai tu vi by BS Long/
-├── .agent/                          ← 🔧 HỆ THỐNG SOP/SKILL/RULE
-│   ├── quality_gate.md              ← QG 35+ items, 6 categories (A-F)
-│   ├── rules/
-│   │   └── tu_vi_rules.md           ← Quy tắc chống sai (11KB)
-│   ├── skills/
-│   │   └── tu_vi_luan_giai/
-│   │       ├── SKILL.md             ← SKILL v5.0 (737 dòng, 20 sections)
-│   │       └── SKILL.docx           ← Bản DOCX (backup)
-│   ├── source_of_truth/
-│   │   ├── la_so_long_2026.md       ← SOT tinh bàn 12 cung
-│   │   └── la_so_long_2026.docx     ← SOT bản DOCX
-│   └── workflows/
-│       └── tu-vi-analysis.md        ← SOP 7 bước end-to-end
+TuViStock/
+├── .agent/                      # ⚙️ Agent system config
+│   ├── rules/tu_vi_rules.md     # 📏 Rules v6.5 (R1-R12, R-CK1→8, P1-P6, QT1-13)
+│   ├── skills/                  # 🧠 3 skills (ck_tuvi, giai_than, tu_vi_luan_giai)
+│   ├── source_of_truth/         # 🔒 SOT: lá số gốc, cách cục, checksums
+│   ├── workflows/               # 📋 4 SOPs (backup, ck-forecast, market-data, tu-vi)
+│   └── quality_gate.md          # ✅ Quality gate tiêu chí
 │
-├── 01_data_inventory/               ← 📊 DỮ LIỆU GỐC (9 tinh bàn)
-│   ├── kiem_ke_tinh_ban_12_cung.md  ← Long: master 12 cung
-│   ├── kiem_ke_tinh_ban_an.md       ← An
-│   ├── kiem_ke_tinh_ban_ba.md       ← Bà
-│   ├── kiem_ke_tinh_ban_ca_rot.md   ← Cà Rốt
-│   ├── kiem_ke_tinh_ban_hy.md       ← Hy
-│   ├── kiem_ke_tinh_ban_kim.md      ← Kim
-│   ├── kiem_ke_tinh_ban_luong_2026.md ← Lương
-│   ├── kiem_ke_tinh_ban_thai_2026.md  ← Thái
-│   └── kiem_ke_tinh_ban_uyen_anh.md   ← Uyên Anh
+├── 01_data_inventory/           # 📊 Kiểm kê tinh bàn (9 lá số)
+│   └── kiem_ke_tinh_ban_*.md    # ← SOT data cho từng người
 │
-├── 02_luan_giai/                    ← 📝 OUTPUT CHÍNH (65 files)
-│   └── luan_giai_toan_dien_long_2026.md ← Master: ~2600 dòng, 10+ PHẦN
+├── 02_luan_giai/                # 📝 Luận giải chính
+│   ├── core/                    # ← Luận giải 12 tháng 2026 (SOT chính)
+│   ├── persons/                 # ← Luận giải theo từng người
+│   ├── novel/                   # ← Tiểu thuyết Tử Vi
+│   ├── tools/                   # ← Python scripts (27 files, xem NOTE)
+│   ├── scripts/                 # ← Scripts phụ trợ
+│   ├── topics/                  # ← Chủ đề chuyên sâu
+│   └── export/                  # ← Files xuất (DOCX/PDF)
 │
-├── 03_cach_cuc/                     ← 🎯 CÁCH CỤC CHÍNH THỐNG
-│   └── cach_cuc_chinh_thong.md      ← 19 cách đã kiểm chứng
+├── 03_cach_cuc/                 # 🏛️ Cách cục kiểm chứng (2 files)
 │
-├── 04_ly_thuyet/                    ← 📚 LÝ THUYẾT NỀN
-│   ├── ra_soat_5_chieu_tuong_tac.md ← Thang đo 5 chiều (14KB)
-│   └── menh_dep_nhat_7_truc.md      ← Ma trận 7 trục SSoT
+├── 04_ly_thuyet/                # 📚 Lý thuyết phương pháp (12 files)
+│   └── *.md                     # ← Kinh điển, GiaiThan, Hồng Phi Mộ...
 │
-└── README.md                        ← File này
+├── 05_ck_analysis/              # 📈 Phân tích CK × Tử Vi
+│   ├── analysis/                # ← Framework, QA/QC, benchmark (12 files)
+│   ├── monthly_updates/         # ← Snapshots hàng ngày/tuần (8 files)
+│   ├── sot/                     # ← SOT filings đã verify
+│   └── tools/                   # ← market_data_pipeline.py
+│
+├── 05_ung_dung/                 # 🎓 Ứng dụng (không CK) — chứa Tiếng Anh Cà Rốt
+│
+├── GEMINI.md                    # 🤖 Agent workspace config
+├── README.md                    # 📖 README gốc
+├── _FEEDBACK_LOG.md             # 📝 Log phản hồi
+└── _REGISTRY.md                 # 📋 Registry tổng hợp
 ```
 
-> **✅ Self-contained:** Folder này chứa ĐẦY ĐỦ mọi thứ cần cho luận giải Tử Vi — không cần tham chiếu folder khác.
+## 🔑 FILE QUAN TRỌNG NHẤT (đọc trước)
 
-## 🛡️ HỆ THỐNG SOP/SKILL/WORKFLOW
+| Priority | File | Mục đích |
+|:---:|---|---|
+| ⭐1 | `.agent/rules/tu_vi_rules.md` | TẤT CẢ rules (R, R-CK, P, QT) |
+| ⭐2 | `.agent/source_of_truth/la_so_long_2026.md` | SOT lá số gốc |
+| ⭐3 | `02_luan_giai/core/luan_giai_12_thang_2026.md` | Luận giải 12 tháng (SOT chính) |
+| ⭐4 | `05_ck_analysis/analysis/benchmark_reference_catalog.json` | Nguồn dữ liệu CK verified |
+| ⭐5 | `05_ck_analysis/analysis/QA_QC_ENTERPRISE_STANDARD.md` | QA/QC 5 cổng (E0-E5) |
 
-| Thành phần | Vị trí | Mô tả |
+## 🔍 TÌM FILE NHANH
+
+| Cần gì | Tìm ở đâu |
+|---|---|
+| Giá CK real-time | Workflow `market-data-fetch.md` (dùng read_url_content) |
+| Rules phân tích CK | `tu_vi_rules.md` → section R-CK1→R-CK8, QT-1→QT-13 |
+| Lá số ai đó | `01_data_inventory/kiem_ke_tinh_ban_{ten}.md` |
+| Luận giải tháng X | `02_luan_giai/core/luan_giai_12_thang_2026.md` |
+| Dữ liệu CK snapshot | `05_ck_analysis/monthly_updates/2026_MM_snapshot_*.md` |
+| Error registry | `05_ck_analysis/analysis/error_registry.md` |
+| Backtest kết quả | `05_ck_analysis/analysis/backtest_t2_2026.md` |
+
+## ⚠️ LEGACY FILES (có nhưng CẨN TRỌNG khi dùng)
+
+| File | Status | Lý do |
 |---|---|---|
-| **SKILL.md v5.0** | `CDMS_Project/.agent/skills/tu_vi_luan_giai/SKILL.md` | 20 sections, 700+ dòng — phương pháp luận giải |
-| **Workflow** | `.agent/workflows/tu-vi-analysis.md` | SOP 7 bước end-to-end |
-| **Quality Gate** | `.agent/quality_gate.md` | 35+ checkpoints, 6 categories |
-| **SOT Tinh bàn** | `.agent/source_of_truth/la_so_long_2026.md` | Ground truth 12 cung |
+| `02_luan_giai/tools/inject_*.py` (12 files) | 🟡 Legacy | Scripts injection cũ, cần migrate sang `injection_guard.py` |
+| `02_luan_giai/tools/upgrade_7_chieu*.py` (2 files) | 🟡 Legacy | Đã chạy xong, giữ tham khảo |
+| `05_ck_analysis/tools/market_data_pipeline.py` | ❌ Broken | RCA-043: API fail, dùng workflow thay thế |
+| `05_ung_dung/` | 🟡 Unrelated | Chứa Tiếng Anh Cà Rốt, không liên quan CK/Tử Vi |
 
-## 📊 ASSET REGISTRY — Output Files
+## 🚫 KHÔNG TẠO file mới tại các vị trí sau (tránh trùng):
 
-| File | Dòng | Nội dung | Version |
-|---|:---:|---|---|
-| `luan_giai_toan_dien_long_2026.md` | ~2600 | 10+ PHẦN toàn diện | v5.0 |
-
-### Các PHẦN trong output chính:
-
-| PHẦN | Nội dung | Dòng ~approx |
-|:---:|---|:---:|
-| I | Nền tảng Mệnh — Cốt cách | 55 |
-| I-BIS | Chính Tinh Deep Analysis (8 bộ, đa phái) | 330 |
-| I-TER | Phụ Tinh Deep Analysis (5 nhóm, 27 sao) | 108 |
-| II | 6 Chiều Tương Tác — Mệnh Thiên Phủ Hợi | 300 |
-| III | Tràng Sinh 12 Cung | 100 |
-| IV | Cách Cục (19 cách, NET +61) | 160 |
-| V | 4 Cung Trọng Yếu | 200 |
-| V-B | Nội Hàm 12 Cung | 50 |
-| VI | Hung/Sát + Tuần-Triệt 12 Cung | 400 |
-| VII | Tứ Hóa Chuỗi (Can Nhâm) | 50 |
-| VIII | Đại Vận Blueprint + Deep ĐV4 | 160 |
-| VIII-A | Tuần Triệt Động Lực Học | 100 |
-| VIII-B | Lưu Niên 2026 Bính Ngọ | 300 |
-| IX | 7 Trục Đa Chiều | 100 |
-| X | Cẩm Nang Hành Động | 50 |
-
-## 🔄 BACKUP STRATEGY
-
-| Tầng | Vị trí | Phương thức |
+| Nội dung | File ĐÃ CÓ | KHÔNG tạo thêm |
 |---|---|---|
-| **Local** | Mac Mini / MBP | File system trực tiếp |
-| **Cloud** | Google Drive | GDrive auto-sync (thư mục Downloads) |
-| **VCS** | GitHub (nếu có) | `git commit` manual |
-| **CDMS** | Document Library | Metadata seeding (nếu cần) |
+| Rules | `tu_vi_rules.md` | ❌ rules_v2.md, new_rules.md |
+| Benchmark | `benchmark_reference_catalog.json` | ❌ benchmark_v2.json |
+| QA/QC | `QA_QC_ENTERPRISE_STANDARD.md` | ❌ qaqc_v2.md |
+| Lá số SOT | `la_so_long_2026.md` | ❌ Copy ở folder khác |
+| Error log | `error_registry.md` | ❌ errors_new.md |
 
-## 📝 VERSION HISTORY
+## 📋 DATA PIPELINE (QT-10→13)
 
-| Version | Ngày | Thay đổi |
-|---|---|---|
-| 1.0 | 25/02/2026 | Initial: Mệnh + Thân analysis |
-| 2.0 | 27/02/2026 | SKILL v4.0: 16 sections |
-| 3.0 | 13/03/2026 | DeepDive: Phu Thê, Tài, Ách, Tràng Sinh |
-| 4.0 | 13/03/2026 | Lưu Niên 12 tháng, 7 Trục |
-| **5.0** | **14/03/2026** | **Chính tinh đa phái + Phụ tinh 27 sao + Cách cục 19 + ĐV4 deep + SOP system** |
+**KHÔNG dùng:**
+- ❌ Python API scripts (hang)
+- ❌ Shell commands trên Desktop path (GDrive hang)
+- ❌ vnstock library (SSL fail)
+
+**DÙNG:**
+- ✅ `read_url_content` CafeF stock page → OG tag
+- ✅ Browser scraping (backup)
+- ✅ Perplexity search (news + prices)
